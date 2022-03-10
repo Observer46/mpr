@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
     fprintf(stderr, "World size must be greater than 1 for %s\n", argv[0]);
     MPI_Abort(MPI_COMM_WORLD, 1); 
   }
-  int number;
+  char* number = malloc();
   if (world_rank == 0) {
     printf("Process 0 - sending!\n");
     // If we are rank 0, set the number to -1 and send it to process 1
