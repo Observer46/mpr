@@ -24,4 +24,5 @@ int main(int argc, char** argv) {
     printf("Process 1 received number %d from process 0\n", number);
   }
   MPI_Finalize();
+  return 0;
 }
