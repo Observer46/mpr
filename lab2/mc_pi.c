@@ -25,7 +25,7 @@ unsigned long long monte_carlo_pi(unsigned long long point_count, float r) {
     in_circle += is_in_circle(x, y, r);
   }
 
-  printf("%ld\n", in_circle);
+  printf("%lld\n", in_circle);
   return in_circle;
 }
 
@@ -62,7 +62,7 @@ int main(int argc, char** argv) {
     double start, end, time;
     unsigned long long total_in_circle;
 
-    MPI_Barrier();
+    MPI_Barrier(MPI_COMM_WORLD);
     start = MPI_Wtime();
     in_circle = monte_carlo_pi(points_per_node, r);
     MPI_Reduce(&in_circle, &total_in_circle, 1, MPI_UNSIGNED_LONG_LONG, MPI_SUM, 0, MPI_COMM_WORLD);
@@ -70,10 +70,10 @@ int main(int argc, char** argv) {
     time = end - start;
 
     printf("Total time: %f\n", time);
-    printf("Total in circle: %ld\n", total_in_circle);
+    printf("Total in circle: %lld\n", total_in_circle);
     printf("PI value: %lf\n", calculate_pi(total_in_circle, point_count));
   } else {
-    MPI_Barrier();
+    MPI_Barrier(MPI_COMM_WORLD);
     in_circle = monte_carlo_pi(points_per_node, r);
     MPI_Reduce(&in_circle, NULL, 1, MPI_UNSIGNED_LONG_LONG, MPI_SUM, 0, MPI_COMM_WORLD);
   }
