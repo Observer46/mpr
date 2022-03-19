@@ -7,12 +7,12 @@
 #define SEED_OFFSET 1913
 
 float randf() {
-  return (float) (rand() / RAND_MAX);
+  return (float) rand() / RAND_MAX;
 }
 
 int is_in_circle(float x, float y, float r) {
   // printf("%f", (x * x) + (y * y));
-  return (x * x) + (y * y) < (r * r);
+  return x * x + y * y < r * r;
 }
 
 unsigned long long monte_carlo_pi(unsigned long long point_count, float r) {

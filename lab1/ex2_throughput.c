@@ -2,9 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <string.h>
 
-#define TEST_TRIES 2000
+#define TEST_TRIES 10000
 
 
 int main(int argc, char** argv) {
@@ -24,46 +23,47 @@ int main(int argc, char** argv) {
   char* buf;
   int bufsize;
   
-  for (unsigned i = 4; i <= 8; ++i) {
+  for (unsigned i = 14; i <= 16; ++i) {
     bufsize = 1 << i;
     buf = (char*) malloc(bufsize);
 
     if (world_rank == 0) {
 
-      MPI_Barrier();
+      MPI_Barrier(MPI_COMM_WORLD);
 
       start = MPI_Wtime();
       for (unsigned j = 0; j < TEST_TRIES; ++j) {
         MPI_Send(buf, bufsize, MPI_CHAR, 1, 0, MPI_COMM_WORLD);
       }
       end = MPI_Wtime();
-      time = (end - start) / TEST_TRIES;
-      printf("Process 0 - sent %d bytes of data in time %f!\n", strlen(buf), time);
+      time = (end - start) / TEST_TRIES * 1000; // ms
+      printf("Process 0 - sent %d bytes of data in time %f!\n", bufsize, time);
 
-      MPI_Barrier();
+      MPI_Barrier(MPI_COMM_WORLD);
       for (unsigned j = 0; j < TEST_TRIES; ++j) {
         MPI_Recv(buf, bufsize, MPI_CHAR, 1, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
       }
-      printf("Process 0 received data of length %d from process 0\n", strlen(buf));
+      printf("Process 0 - received data of length %d from process 0\n", bufsize);
 
     } else if (world_rank == 1) {
 
-      MPI_Barrier();
+      MPI_Barrier(MPI_COMM_WORLD);
       for (unsigned j = 0; j < TEST_TRIES; ++j) {
         MPI_Recv(buf, bufsize, MPI_CHAR, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
       }
-      printf("Process 1 received data of length %d from process 0\n", strlen(buf));
+      printf("Process 1 - received data of length %d from process 0\n", bufsize);
 
-      MPI_Barrier();
+      MPI_Barrier(MPI_COMM_WORLD);
 
       start = MPI_Wtime();
       for (unsigned j = 0; j < TEST_TRIES; ++j) {
         MPI_Send(buf, bufsize, MPI_CHAR, 0, 0, MPI_COMM_WORLD);
       }
       end = MPI_Wtime();
-      time = (end - start) / TEST_TRIES;
-      printf("Process 1 - sent %d bytes of data in time %f!\n", strlen(buf), time);
+      time = (end - start) / TEST_TRIES * 1000; // ms
+      printf("Process 1 - sent %d bytes of data in time %f!\n", bufsize, time);
     }
+    free(buf);
   }
 
   MPI_Finalize();
