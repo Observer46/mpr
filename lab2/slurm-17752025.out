@@ -1,0 +1,187 @@
+ plgrid/tools/binutils/2.34 loaded.
+ plgrid/tools/gcc/9.3.0 loaded.
+ plgrid/tools/intel/2021.3.0 loaded.
+ plgrid/apps/cuda/11.2 loaded.
+ plgrid/libs/gdrcopy/2.2-cuda-11.2 loaded.
+ plgrid/libs/ucx/1.10.0-cuda-11.2 loaded.
+ plgrid/tools/openmpi/4.1.2-intel-2021.3.0 loaded.
+Point count: 20000000
+Processor count: 1
+Total time: 0.668887
+Total in circle: 15707816
+PI value: 3.141563
+Point count: 20000000
+Processor count: 2
+Total time: 0.332581
+Total in circle: 15707338
+PI value: 3.141468
+Point count: 20000000
+Processor count: 3
+Total time: 0.259818
+Total in circle: 15708854
+PI value: 3.141771
+Point count: 20000000
+Processor count: 4
+Total time: 0.183637
+Total in circle: 15709758
+PI value: 3.141952
+Point count: 20000000
+Processor count: 5
+Total time: 0.149576
+Total in circle: 15708475
+PI value: 3.141695
+Point count: 20000000
+Processor count: 6
+Total time: 0.124488
+Total in circle: 15706816
+PI value: 3.141363
+Point count: 20000000
+Processor count: 7
+Total time: 0.119010
+Total in circle: 15706023
+PI value: 3.141205
+Point count: 20000000
+Processor count: 8
+Total time: 0.103639
+Total in circle: 15705392
+PI value: 3.141078
+Point count: 20000000
+Processor count: 9
+Total time: 0.084515
+Total in circle: 15705912
+PI value: 3.141182
+Point count: 20000000
+Processor count: 10
+Total time: 0.079948
+Total in circle: 15705955
+PI value: 3.141191
+Point count: 20000000
+Processor count: 11
+Total time: 0.068089
+Total in circle: 15705135
+PI value: 3.141027
+Point count: 20000000
+Processor count: 12
+Total time: 0.068929
+Total in circle: 15705173
+PI value: 3.141035
+Point count: 317000000
+Processor count: 1
+Total time: 10.387796
+Total in circle: 248968155
+PI value: 3.141554
+Point count: 317000000
+Processor count: 2
+Total time: 5.268941
+Total in circle: 248967599
+PI value: 3.141547
+Point count: 317000000
+Processor count: 3
+Total time: 3.754651
+Total in circle: 248971075
+PI value: 3.141591
+Point count: 317000000
+Processor count: 4
+Total time: 2.902275
+Total in circle: 248970308
+PI value: 3.141581
+Point count: 317000000
+Processor count: 5
+Total time: 2.623053
+Total in circle: 248962540
+PI value: 3.141483
+Point count: 317000000
+Processor count: 6
+Total time: 1.977344
+Total in circle: 248962234
+PI value: 3.141479
+Point count: 317000000
+Processor count: 7
+Total time: 1.697916
+Total in circle: 248964050
+PI value: 3.141502
+Point count: 317000000
+Processor count: 8
+Total time: 1.490981
+Total in circle: 248961643
+PI value: 3.141472
+Point count: 317000000
+Processor count: 9
+Total time: 1.321971
+Total in circle: 248959624
+PI value: 3.141446
+Point count: 317000000
+Processor count: 10
+Total time: 1.187308
+Total in circle: 248958440
+PI value: 3.141431
+Point count: 317000000
+Processor count: 11
+Total time: 1.088080
+Total in circle: 248955286
+PI value: 3.141392
+Point count: 317000000
+Processor count: 12
+Total time: 1.091643
+Total in circle: 248951226
+PI value: 3.141340
+Point count: 20000000000
+Processor count: 1
+Total time: 656.245343
+Total in circle: 15708013708
+PI value: 3.141603
+Point count: 20000000000
+Processor count: 2
+Total time: 335.937238
+Total in circle: 15707947382
+PI value: 3.141589
+Point count: 20000000000
+Processor count: 3
+Total time: 237.572073
+Total in circle: 15707987680
+PI value: 3.141598
+Point count: 20000000000
+Processor count: 4
+Total time: 183.651181
+Total in circle: 15708012034
+PI value: 3.141602
+Point count: 20000000000
+Processor count: 5
+Total time: 149.163103
+Total in circle: 15708033984
+PI value: 3.141607
+Point count: 20000000000
+Processor count: 6
+Total time: 124.313305
+Total in circle: 15708011972
+PI value: 3.141602
+Point count: 20000000000
+Processor count: 7
+Total time: 117.903206
+Total in circle: 15708010252
+PI value: 3.141602
+Point count: 20000000000
+Processor count: 8
+Total time: 103.155026
+Total in circle: 15708039421
+PI value: 3.141608
+Point count: 20000000000
+Processor count: 9
+Total time: 91.773510
+Total in circle: 15707993005
+PI value: 3.141599
+Point count: 20000000000
+Processor count: 10
+Total time: 74.678899
+Total in circle: 15708013812
+PI value: 3.141603
+Point count: 20000000000
+Processor count: 11
+Total time: 75.054522
+Total in circle: 15707957969
+PI value: 3.141592
+Point count: 20000000000
+Processor count: 12
+Total time: 62.267832
+Total in circle: 15707947056
+PI value: 3.141589
