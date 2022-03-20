@@ -11,7 +11,6 @@ float randf() {
 }
 
 int is_in_circle(float x, float y, float r) {
-  // printf("%f", (x * x) + (y * y));
   return x * x + y * y < r * r;
 }
 
@@ -25,7 +24,6 @@ unsigned long long monte_carlo_pi(unsigned long long point_count, float r) {
     in_circle += is_in_circle(x, y, r);
   }
 
-  printf("%lld\n", in_circle);
   return in_circle;
 }
 
@@ -59,6 +57,8 @@ int main(int argc, char** argv) {
   unsigned long long in_circle;
 
   if (world_rank == 0) {    
+    printf("Point count: %lld\n", point_count);
+    printf("Processor count: %d\n", world_size);
     double start, end, time;
     unsigned long long total_in_circle;
 

@@ -1,0 +1,11 @@
+ plgrid/tools/binutils/2.34 loaded.
+ plgrid/tools/gcc/9.3.0 loaded.
+ plgrid/tools/intel/2021.3.0 loaded.
+ plgrid/apps/cuda/11.2 loaded.
+ plgrid/libs/gdrcopy/2.2-cuda-11.2 loaded.
+ plgrid/libs/ucx/1.10.0-cuda-11.2 loaded.
+ plgrid/tools/openmpi/4.1.2-intel-2021.3.0 loaded.
+Process 0 - sending!
+Process 0 - sending over!
+Process 1 - started!
+Process 1 received number -1 from process 0
