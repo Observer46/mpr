@@ -3,17 +3,18 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#define REPEAT_MAX 3
-#define STAGE2_OFFSET 4
+#define REPEATS_MAX 1000
 
-
-int calculate_repeats(int current_size, int max_size) {
-  if (1.0 * current_size / max_size < 0.35)
-    return max_size * REPEAT_MAX / current_size;
-  else
-    return max_size / current_size * 2 * REPEAT_MAX + STAGE2_OFFSET;
+float convert_bytes_to_mbit(unsigned long long byte_count) {
+  return 1.f * byte_count / (1024 * 1024) * 8;
 }
 
+void fill_buf(char* buf, unsigned long long size) {
+  unsigned long long i;
+  for (i = 0; i < size; ++i) {
+    buf[i] = 'a';
+  }
+}
 
 int main(int argc, char** argv) {
   MPI_Init(NULL, NULL);
@@ -29,7 +30,7 @@ int main(int argc, char** argv) {
   }
 
   if (argc != 4) {
-    fprintf(stderr, "Usage: ./%s <starting size [B]> <max_size [B]> <increment [B]>\n", argv[0]);
+    fprintf(stderr, "Usage: %s <starting size [KB]> <max_size [KB]> <increment [KB]>\n", argv[0]);
     MPI_Abort(MPI_COMM_WORLD, 1); 
   }
 
@@ -43,26 +44,28 @@ int main(int argc, char** argv) {
   
   for (; size <= max_size; size += inc) {
     buf = (char*) malloc(size);
-    int repeats = calculate_repeats(size, max_size);
+    int repeats = REPEATS_MAX;// calculate_repeats(size, max_size);
     int i;
 
     if (world_rank == 0) {
-
+      fill_buf(buf, size);
       MPI_Barrier(MPI_COMM_WORLD);
 
       start = MPI_Wtime();
       for (i = 0; i < repeats; ++i) {
-        MPI_Ssend(buf, bufsize, MPI_CHAR, 1, 0, MPI_COMM_WORLD);
+        MPI_Ssend(buf, size, MPI_CHAR, 1, 0, MPI_COMM_WORLD);
       }
       end = MPI_Wtime();
       time = (end - start) / repeats;
-      printf("%d %f\n", bufsize, time);
+      float throttle = 1.f * convert_bytes_to_mbit(size) / time;
+      
+      printf("%d %f %.1f\n", size, time, throttle);
 
     } else if (world_rank == 1) {
 
       MPI_Barrier(MPI_COMM_WORLD);
       for (i = 0; i < repeats; ++i) {
-        MPI_Recv(buf, bufsize, MPI_CHAR, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+        MPI_Recv(buf, size, MPI_CHAR, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
       }
       // printf("Process 1 - received data of length %d from process 0\n", bufsize);
     }

@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#define REPEATS 10000000
+#define REPEATS 10000
 
 
 int main(int argc, char** argv) {
@@ -27,7 +27,7 @@ int main(int argc, char** argv) {
 
     start = MPI_Wtime();
     for (i = 0; i < REPEATS; ++i) {
-      MPI_Ssend(NULL, 0, MPI_DATATYPE_NULL, 1, 0, MPI_COMM_WORLD);
+      MPI_Ssend(NULL, 0, MPI_CHAR, 1, 0, MPI_COMM_WORLD);
     }
     end = MPI_Wtime();
     time = (end - start) / REPEATS;
@@ -37,11 +37,10 @@ int main(int argc, char** argv) {
 
     MPI_Barrier(MPI_COMM_WORLD);
     for (i = 0; i < REPEATS; ++i) {
-      MPI_Recv(NULL, 0, MPI_DATATYPE_NULL, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+      MPI_Recv(NULL, 0, MPI_CHAR, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
     }
     // printf("Process 1 - received data of length %d from process 0\n", bufsize);
   }
-  free(buf);
 
   MPI_Finalize();
   return 0;
