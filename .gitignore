@@ -55,4 +55,7 @@ dkms.conf
 
 # Stack dump
 *.stackdump
+
+
+.ipynb_checkpoints/
 !slurm-*
