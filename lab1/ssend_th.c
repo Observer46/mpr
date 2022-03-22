@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#define REPEATS_MAX 1000
-
 float convert_bytes_to_mbit(unsigned long long byte_count) {
   return 1.f * byte_count / (1024 * 1024) * 8;
 }
@@ -29,8 +27,8 @@ int main(int argc, char** argv) {
     MPI_Abort(MPI_COMM_WORLD, 1); 
   }
 
-  if (argc != 4) {
-    fprintf(stderr, "Usage: %s <starting size [KB]> <max_size [KB]> <increment [KB]>\n", argv[0]);
+  if (argc != 5) {
+    fprintf(stderr, "Usage: %s <starting size [KB]> <max_size [KB]> <increment [KB]> <repeats>\n", argv[0]);
     MPI_Abort(MPI_COMM_WORLD, 1); 
   }
 
@@ -38,13 +36,13 @@ int main(int argc, char** argv) {
   int max_size      = atoi(argv[2]);
   int inc           = atoi(argv[3]);
   int size = starting_size;
+  int repeats       = atoi(argv[4]);
   
   double start, end, time;
   char* buf;
   
   for (; size <= max_size; size += inc) {
     buf = (char*) calloc(size, sizeof(char));
-    int repeats = REPEATS_MAX;// calculate_repeats(size, max_size);
     int i;
 
     if (world_rank == 0) {

@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#define REPEATS 10000
-
 
 int main(int argc, char** argv) {
   MPI_Init(NULL, NULL);
@@ -18,7 +16,13 @@ int main(int argc, char** argv) {
     fprintf(stderr, "World size must be equal 2 for %s\n", argv[0]);
     MPI_Abort(MPI_COMM_WORLD, 1); 
   }
+
+  if (argc != 2) {
+    fprintf(stderr, "Usage: %s <repeats>\n ", argv[0]);
+    MPI_Abort(MPI_COMM_WORLD, 1);
+  }
   
+  int repeats = atoi(argv[1]);
   double start, end, time;
   unsigned long long i;
 
@@ -26,17 +30,17 @@ int main(int argc, char** argv) {
     MPI_Barrier(MPI_COMM_WORLD);
 
     start = MPI_Wtime();
-    for (i = 0; i < REPEATS; ++i) {
+    for (i = 0; i < repeats; ++i) {
       MPI_Ssend(NULL, 0, MPI_CHAR, 1, 0, MPI_COMM_WORLD);
     }
     end = MPI_Wtime();
-    time = (end - start) / REPEATS;
-    printf("Latency for Ssend: %f\n", time);
+    time = (end - start) / repeats;
+    printf("Latency for Ssend: %.15f\n", time);
 
   } else if (world_rank == 1) {
 
     MPI_Barrier(MPI_COMM_WORLD);
-    for (i = 0; i < REPEATS; ++i) {
+    for (i = 0; i < repeats; ++i) {
       MPI_Recv(NULL, 0, MPI_CHAR, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
     }
   }
