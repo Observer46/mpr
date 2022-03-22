@@ -27,11 +27,13 @@ int main(int argc, char** argv) {
 
     start = MPI_Wtime();
     for (i = 0; i < REPEATS; ++i) {
-      MPI_Ssend(NULL, 0, MPI_CHAR, 1, 0, MPI_COMM_WORLD);
+      MPI_Request request;
+      MPI_Isend(NULL, 0, MPI_CHAR, 1, 0, MPI_COMM_WORLD, &request);
+      MPI_Wait(&request, MPI_STATUS_IGNORE);
     }
     end = MPI_Wtime();
     time = (end - start) / REPEATS;
-    printf("Latency for Ssend: %f\n", time);
+    printf("Latency for Isend: %f\n", time);
 
   } else if (world_rank == 1) {
 

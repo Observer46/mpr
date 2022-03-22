@@ -53,7 +53,9 @@ int main(int argc, char** argv) {
 
       start = MPI_Wtime();
       for (i = 0; i < repeats; ++i) {
-        MPI_Ssend(buf, size, MPI_CHAR, 1, 0, MPI_COMM_WORLD);
+        MPI_Request request;
+        MPI_Isend(buf, size, MPI_CHAR, 1, 0, MPI_COMM_WORLD, &request);
+        MPI_Wait(&request, MPI_STATUS_IGNORE);
       }
       end = MPI_Wtime();
       time = (end - start) / repeats;
@@ -67,7 +69,6 @@ int main(int argc, char** argv) {
       for (i = 0; i < repeats; ++i) {
         MPI_Recv(buf, size, MPI_CHAR, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
       }
-      // printf("Process 1 - received data of length %d from process 0\n", bufsize);
     }
     free(buf);
   }
