@@ -20,6 +20,8 @@
 
 #define _XOPEN_SOURCE
 
+#define BUCKET_SIZE 10
+
 enum ScheduleType {S_STATIC, S_DYNAMIC, S_GUIDED, S_RUNTIME};
 
 struct BucketNode
@@ -89,7 +91,7 @@ void print_buckets(BucketNode** buckets, int bucket_count) {
 // Should be used withing OpenMP
 void bucket_sort(double* array, int size) {
     int thread_count = omp_get_max_threads();
-    int bucket_count = size / thread_count;
+    int bucket_count = size / BUCKET_SIZE;
 
     BucketNode** buckets = (BucketNode**) calloc(bucket_count, sizeof(BucketNode*));
     
