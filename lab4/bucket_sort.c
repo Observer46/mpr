@@ -24,13 +24,12 @@
 
 enum ScheduleType {S_STATIC, S_DYNAMIC, S_GUIDED, S_RUNTIME};
 
-struct BucketNode
+struct Bucket
 {
-    double val;
-    struct BucketNode* next;
-    int bucket_size;
+    double elements[BUCKET_SIZE];
+    int el_count;
 };
-typedef struct BucketNode BucketNode;
+typedef struct Bucket Bucket;
 
 
 int same_str(const char* str1, const char* str2) {
@@ -68,21 +67,19 @@ int val_to_bucket_idx(double val, int bucket_count) {
     return val / bucket_range;
 }
 
-void add_node_to_bucket(BucketNode** buckets, int bucket_count, double val) {
+void add_node_to_bucket(Bucket* buckets, int bucket_count, double val) {
     int bucket_idx = val_to_bucket_idx(val, bucket_count);
-    BucketNode* new_node = (BucketNode*) malloc(sizeof(BucketNode));
-    new_node -> val = val;
-    new_node -> bucket_size = (buckets[bucket_idx] == NULL) ? 1 : buckets[bucket_idx] -> bucket_size + 1;
-    new_node -> next = buckets[bucket_idx];
-    buckets[bucket_idx] = new_node;
+    int el_in_buckets = buckets[bucket_idx].el_count;
+    buckets[bucket_idx].elements[el_in_buckets] = val;
+    ++buckets[bucket_idx].el_count;
 }
 
-void print_buckets(BucketNode** buckets, int bucket_count) {
-    for (int i=0; i < bucket_count; ++i) {
-        BucketNode* iter = buckets[i];
-        while (iter != NULL) {
-            printf("%f ", iter);
-            iter = iter -> next;
+void print_buckets(Bucket* buckets, int bucket_count) {
+    int i, j;
+    for (i=0; i < bucket_count; ++i) {
+        Bucket bucket = buckets[i];
+        for(j=0; j < bucket.el_count; ++j) {
+            printf("%f ", bucket.elements[j]);
         }
         printf("\n");
     }
@@ -92,14 +89,19 @@ void print_buckets(BucketNode** buckets, int bucket_count) {
 void bucket_sort(double* array, int size) {
     int thread_count = omp_get_max_threads();
     int bucket_count = size / BUCKET_SIZE;
+    double time0, time1, totalTime;
 
-    BucketNode** buckets = (BucketNode**) calloc(bucket_count, sizeof(BucketNode*));
+    Bucket* buckets = (Bucket*) calloc(bucket_count, sizeof(Bucket));
     
+    time0 = omp_get_wtime();
     for (int i=0; i < size; ++i) {
         add_node_to_bucket(buckets, bucket_count, array[i]);
     }
+    time1 = omp_get_wtime();
+    totalTime = time1 - time0;
+    printf("Bucketing time: %lf\n", totalTime);  
 
-    print_buckets(buckets, bucket_count);
+    // print_buckets(buckets, bucket_count);
 }
 
 
