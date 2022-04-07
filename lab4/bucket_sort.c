@@ -90,18 +90,20 @@ void bucket_sort(double* array, int size) {
     int thread_count = omp_get_max_threads();
     int bucket_count = size / BUCKET_SIZE;
     double time0, time1, totalTime;
+    int i;
 
     Bucket* buckets = (Bucket*) calloc(bucket_count, sizeof(Bucket));
+    print_buckets(buckets, bucket_count);
     
     time0 = omp_get_wtime();
-    for (int i=0; i < size; ++i) {
+    for (i=0; i < size; ++i) {
         add_node_to_bucket(buckets, bucket_count, array[i]);
     }
     time1 = omp_get_wtime();
     totalTime = time1 - time0;
     printf("Bucketing time: %lf\n", totalTime);  
 
-    // print_buckets(buckets, bucket_count);
+    print_buckets(buckets, bucket_count);
 }
 
 
