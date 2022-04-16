@@ -19,17 +19,13 @@
 #include <string.h>
 
 #define _XOPEN_SOURCE
-
 #define BUCKET_SIZE 10
-
-// TODO: read bucket number form args
-#define BUCKET_NUMBER 10
 
 enum ScheduleType {S_STATIC, S_DYNAMIC, S_GUIDED, S_RUNTIME};
 
 struct Bucket
 {
-    double elements[BUCKET_SIZE]; // TODO: initialize
+    double elements[BUCKET_SIZE];
     int el_count;
     int bucket_size;
 };
@@ -66,29 +62,22 @@ void random_array(double* array, int size) {
     }
 }
 
-int val_to_bucket_idx(double val, int bucket_count) {
-    double bucket_range = 1.0 / bucket_count;
-    int idx = val / bucket_range;
-    return val / bucket_range;
-}
-
-
 int get_bucket_idx(double val, int bucket_count) {
     return (int) (bucket_count * val);
 }
 
+int calculate_bucket_count(int array_size) {
+    return 3 * array_size / (2 * BUCKET_SIZE);    // 50% more than expected
+}
+
 void add_node_to_bucket(Bucket* buckets, int bucket_count, double val) {
-    int bucket_idx = get_bucket_idx(val, bucket_count); //val_to_bucket_idx(val, bucket_count);
-    printf("%d, value: %lf\n", bucket_idx, val);
+    int bucket_idx = get_bucket_idx(val, bucket_count);
+    // printf("%d, value: %lf\n", bucket_idx, val);
     int el_in_buckets = buckets[bucket_idx].el_count;
 
-    // TODO: resize bucket
     if(buckets[bucket_idx].bucket_size == el_in_buckets){
-        printf("realloc memory idx: %d\n", bucket_idx);
-        // TODO: 50% bigger?
-        int new_size = (int) (buckets[bucket_idx].bucket_size * 1.5);
-        buckets[bucket_idx].elements = (double*)realloc(buckets[bucket_idx].elements, new_size * sizeof(double));
-        buckets[bucket_idx].bucket_size = new_size;
+        printf("Max bucket size reached on idx: %d\n", bucket_idx);
+        exit(1);
     }
 
     buckets[bucket_idx].elements[el_in_buckets] = val;
@@ -109,31 +98,29 @@ void print_buckets(Bucket* buckets, int bucket_count) {
 // Should be used withing OpenMP
 void bucket_sort(double* array, int size) {
     int thread_count = omp_get_max_threads();
-    // int bucket_count = size / BUCKET_SIZE;
-    int bucket_size = (int) (size / BUCKET_NUMBER) + 1;
+    int bucket_count = calculate_bucket_count(size);
     double time0, time1, totalTime;
     int i;
 
-    Bucket* buckets = (Bucket*) calloc(BUCKET_NUMBER, sizeof(Bucket));
+    Bucket* buckets = (Bucket*) calloc(bucket_count, sizeof(Bucket));
 
     // Initialize buckets 
-    for(i = 0; i < BUCKET_NUMBER; i++){
+    for(i = 0; i < bucket_count; i++){
         buckets[i].el_count = 0;
-        buckets[i].elements = (double*)malloc(bucket_size * sizeof(double));
-        buckets[i].bucket_size = bucket_size;
+        buckets[i].bucket_size = BUCKET_SIZE;
     }
 
     // print_buckets(buckets, BUCKET_NUMBER);
     
     time0 = omp_get_wtime();
     for (i=0; i < size; ++i) {
-        add_node_to_bucket(buckets, BUCKET_NUMBER, array[i]);
+        add_node_to_bucket(buckets, bucket_count, array[i]);
     }
     time1 = omp_get_wtime();
     totalTime = time1 - time0;
     printf("Bucketing time: %lf\n", totalTime);  
 
-    print_buckets(buckets, BUCKET_NUMBER);
+    print_buckets(buckets, bucket_count);
 }
 
 
@@ -142,7 +129,7 @@ int main (int argc, char** argv) {
     int size, i;
 
     if (argc < 3) {
-        fprintf(stderr, "expected: <number of processors> <problem size>\n");
+        fprintf(stderr, "expected: <number of processors> <array size>\n");
         exit(1);
     }
 
@@ -158,7 +145,7 @@ int main (int argc, char** argv) {
     zmiennych*/
 
     random_array(array, size);
-    // bucket_sort(array, size);
+    bucket_sort(array, size);
 
     time1 = omp_get_wtime();
     totalTime = time1 - time0;
