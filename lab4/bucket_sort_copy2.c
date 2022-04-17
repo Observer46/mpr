@@ -56,10 +56,21 @@ void random_array(double* array, int size) {
     unsigned short work1[3] = {0, 0, 0};
     unsigned short work2[3] = {0xFF00, 0, 0};
     unsigned short work3[3] = {0x00FF, 0, 0};
-    unsigned short work4[3] = {0, 0xFF00, 0};
-    unsigned short work5[3] = {0, 0x00FF, 0 };
-    printf("1:%lf 2:%lf 3:%lf 4:%lf 5:%lf \n", erand48(work5), erand48(work2), erand48(work1),  erand48(work3), erand48(work4));
+    unsigned short work4[3] = {0xFFFF, 0, 0};
+
+    unsigned short work5[3] = {0, 0xFF00, 0};
+    unsigned short work6[3] = {0, 0x00FF, 0};
+    unsigned short work7[3] = {0, 0xFFFF, 0};
+
+    unsigned short work8[3] = {0, 0, 0xFF00};
+    unsigned short work9[3] = {0, 0, 0x00FF};
+    unsigned short work10[3] ={0, 0, 0xFFFF};
+
+    printf("1:%lf 2:%lf 3:%lf 4:%lf\n", erand48(work1), erand48(work2), erand48(work3), erand48(work4));
+    printf("5:%lf 6:%lf 7:%lf\n", erand48(work5), erand48(work6), erand48(work7));
+    printf("8:%lf 9:%lf 10:%lf\n", erand48(work8), erand48(work9), erand48(work10));
     exit(0);
+
     #pragma omp parallel private(i)
     {
         unsigned short work[3] = {omp_get_thread_num(), omp_get_thread_num(), omp_get_thread_num()};
