@@ -204,7 +204,18 @@ void bucket_sort(double* array, int array_size) {
     perform_bucketing(array, array_size, buckets, bucket_count);
     sort_buckets(buckets, bucket_count);
     buckets_to_array(array, buckets, bucket_count);
-    // print_array(array, size);
+    print_array(array, array_size);
+}
+
+
+int check_is_sorted(double* array, int size) {
+    int i;
+    for (i = 1; i < size; ++i) {
+        if (array[i - 1] > array[i]) {
+            return 0;   // false
+        }
+    }
+    return 1;   // true
 }
 
 
@@ -234,5 +245,6 @@ int main (int argc, char** argv) {
     printf("Threads: %d\n", omp_get_max_threads());
     printf("Array size: %d\n", size);
     printf("Total time: %lf\n", totalTime);
+    printf("Is sorted: %s\n", check_is_sorted(array, size) ? "yes" : "no");
     return 0;
 }
