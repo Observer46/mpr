@@ -58,7 +58,7 @@ void random_array(double* array, int size) {
     unsigned short work3[3] = {0x00FF, 0, 0};
     unsigned short work4[3] = {0, 0xFF00, 0};
     unsigned short work5[3] = {0, 0x00FF, 0 };
-    printf("1:%lf 2:%lf 3:%lf 4:%lf 5:%lf \n", erand48(work1), erand48(work2), erand48(work3), erand48(work4), erand48(work5));
+    printf("1:%lf 2:%lf 3:%lf 4:%lf 5:%lf \n", erand48(work5), erand48(work2), erand48(work1),  erand48(work3), erand48(work4));
     exit(0);
     #pragma omp parallel private(i)
     {
