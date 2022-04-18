@@ -204,7 +204,8 @@ void bucket_sort(double* array, int array_size) {
     perform_bucketing(array, array_size, buckets, bucket_count);
     sort_buckets(buckets, bucket_count);
     buckets_to_array(array, buckets, bucket_count);
-    print_array(array, array_size);
+    // print_array(array, array_size);
+    free(buckets);
 }
 
 

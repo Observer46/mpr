@@ -64,11 +64,13 @@ void random_array(double* array, int size) {
 
 int val_to_bucket_idx(double val, int bucket_count) {
     double bucket_range = 1.0 / bucket_count;
+    int idx = val / bucket_range;
     return val / bucket_range;
 }
 
 void add_node_to_bucket(Bucket* buckets, int bucket_count, double val) {
     int bucket_idx = val_to_bucket_idx(val, bucket_count);
+    printf("%d\n", bucket_idx);
     int el_in_buckets = buckets[bucket_idx].el_count;
     buckets[bucket_idx].elements[el_in_buckets] = val;
     ++buckets[bucket_idx].el_count;
