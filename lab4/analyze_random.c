@@ -172,7 +172,6 @@ void analyze_mean_and_var(double* array, int array_size) {
 
 // Returns if buckets would be overflown
 int measure_uniformness(double* array, int array_size, double m, int bucket_size, int method_no) {
-    printf("Method %d:\n", method_no);
     int max_in_bucket = analyze_for_bucket_count(array, array_size, (int) (m * array_size / bucket_size));
     analyze_mean_and_var(array, array_size);
     printf("\n");
@@ -197,7 +196,7 @@ int main (int argc, char** argv) {
     printf("Threads: %s\n", argv[1]);
     printf("Array size: %d\n", array_size);
     printf("Bucket count multiplier: %s\n", argv[3]);
-    printf("Bucket size: %s\n", argv[4]);
+    printf("Bucket size: %s\n\n", argv[4]);
     
     omp_set_num_threads(atoi(argv[1]));
     sscanf(argv[3] , "%lf", &m);
