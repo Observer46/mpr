@@ -20,7 +20,7 @@
 
 #define _XOPEN_SOURCE
 #define BUCKET_SIZE 20
-#define BUCKET_COUNT_MULTIPLIER 6
+#define BUCKET_COUNT_MULTIPLIER 5
 #define MIN_CHUNK_SIZE 100
 
 enum ScheduleType {S_STATIC, S_DYNAMIC, S_GUIDED, S_RUNTIME};
@@ -77,7 +77,7 @@ void print_array(double* array, int array_size) {
 }
 
 
-void random_array(double* array, int size) {
+double random_array(double* array, int size) {
     double time0, time1, totalTime;
     int i;
 
@@ -92,8 +92,7 @@ void random_array(double* array, int size) {
     }
     time1 = omp_get_wtime();
     totalTime = time1 - time0;
-    printf("Randoming time: %lf\n", totalTime);
-    // print_array(array, size);
+    return totalTime;
 }
 
 
@@ -111,7 +110,7 @@ void add_node_to_bucket(Bucket* buckets, int bucket_count, double val) {
     int bucket_idx = get_bucket_idx(val, bucket_count);
     int el_in_buckets = buckets[bucket_idx].el_count;
 
-    if(buckets[bucket_idx].bucket_size == el_in_buckets){
+    if (el_in_buckets >= BUCKET_SIZE) {
         printf("Max bucket size reached on idx: %d\n", bucket_idx);
         exit(1);
     }
@@ -121,7 +120,7 @@ void add_node_to_bucket(Bucket* buckets, int bucket_count, double val) {
 }
 
 
-void perform_bucketing(double* array, int array_size, Bucket** buckets_per_thread, int bucket_count) {
+double perform_bucketing(double* array, int array_size, Bucket** buckets_per_thread, int bucket_count) {
     int i;
     double time0, time1, totalTime;
     
@@ -136,13 +135,12 @@ void perform_bucketing(double* array, int array_size, Bucket** buckets_per_threa
     }
     time1 = omp_get_wtime();
     totalTime = time1 - time0;
-    printf("Bucketing time: %lf\n", totalTime);  
 
-    // print_buckets(buckets_per_thread[0], bucket_count);
+    return totalTime;
 }
 
 
-void merge_buckets(Bucket** buckets_per_thread, int bucket_count, Bucket* main_buckets) {
+double merge_buckets(Bucket** buckets_per_thread, int bucket_count, Bucket* main_buckets) {
     int i, j, k;
     double time0, time1, totalTime;
     
@@ -164,7 +162,7 @@ void merge_buckets(Bucket** buckets_per_thread, int bucket_count, Bucket* main_b
 
     time1 = omp_get_wtime();
     totalTime = time1 - time0;
-    printf("Bucket merging time: %lf\n", totalTime);
+    return totalTime;
 }
 
 
@@ -185,7 +183,7 @@ void sort_single_bucket(Bucket* single_bucket) {
 }
 
 
-void sort_buckets(Bucket* buckets, int bucket_count) { 
+double sort_buckets(Bucket* buckets, int bucket_count) { 
     int i;
     double time0, time1, totalTime;
 
@@ -198,7 +196,7 @@ void sort_buckets(Bucket* buckets, int bucket_count) {
 
     time1 = omp_get_wtime();
     totalTime = time1 - time0;
-    printf("Sorting buckets time: %lf\n", totalTime);  
+    return totalTime;
 }
 
 
@@ -212,7 +210,7 @@ void seq_fill_elem_count(Bucket* buckets, int bucket_count) {
 }
 
 
-void buckets_to_array(double* array, Bucket* buckets, int bucket_count) {
+double buckets_to_array(double* array, Bucket* buckets, int bucket_count) {
     int i, j;
     int array_iter = 0;
     double time0, time1, totalTime;
@@ -225,61 +223,82 @@ void buckets_to_array(double* array, Bucket* buckets, int bucket_count) {
     #pragma omp parallel for private(i, j) schedule(guided, MIN_CHUNK_SIZE)
     for (i = 0; i < bucket_count; ++i) {
         int prior_to_this = buckets[i].bucket_size;
-        // printf("prior: %d, thread: %d\n", prior_to_this, omp_get_thread_num());
         for (j = 0; j < buckets[i].el_count; ++j) {
-            // printf("ELEMENT: %lf, idx: %d\n", buckets[i].elements[j], prior_to_this + j);
             array[prior_to_this + j] = buckets[i].elements[j];
         }
     }
 
-    // print_array(array, size);
-
     time1 = omp_get_wtime();
     totalTime = time1 - time0;
-    printf("Rewriting buckets back to array: %lf\n", totalTime);
+    return totalTime;
 }
 
 
-void initialize_buckets(Bucket* buckets, int bucket_count) {
-    int i;
-    for(i = 0; i < bucket_count; i++){
-        buckets[i].el_count = 0;
-        buckets[i].bucket_size = BUCKET_SIZE;
-    }
-}
+// void initialize_buckets(Bucket* buckets, int bucket_count) {
+//     int i;
+//     #pragma omp parallel for private(i) schedule(guided, MIN_CHUNK_SIZE)
+//     for(i = 0; i < bucket_count; i++){
+//         buckets[i].el_count = 0;
+//         buckets[i].bucket_size = BUCKET_SIZE;
+//     }
+// }
 
 
 // Should be used withing OpenMP
-void bucket_sort(double* array, int array_size) {
+void bucket_sort(double* array, int array_size, double start, int verbose) {
     int bucket_count = calculate_bucket_count(array_size);
-    double time0, time1, totalTime;
     int i;
     int thread_count = omp_get_max_threads();
 
-    // printf("Bucket count: %d\n", bucket_count);
+    double time0, time1, totalTime;
+    double init_time, bucketing_time, merging_time, sorting_time, rewriting_time, dealloc_time;
+
+    // Allocation of buckets
+    time0 = omp_get_wtime(); 
     Bucket* main_buckets = (Bucket*) calloc(bucket_count, sizeof(Bucket));
     Bucket** buckets_per_thread = (Bucket**) malloc(thread_count * sizeof(Bucket*));
 
-    // Initialize buckets 
-    initialize_buckets(main_buckets, bucket_count);
     for (i=0; i < thread_count; ++i) {
         buckets_per_thread[i] = (Bucket*) calloc(bucket_count, sizeof(Bucket));
-        initialize_buckets(buckets_per_thread[i], bucket_count);
     }
+    time1 = omp_get_wtime();
+    init_time = time1 - time0;
     
-    perform_bucketing(array, array_size, buckets_per_thread, bucket_count);
-    merge_buckets(buckets_per_thread, bucket_count, main_buckets);
-    sort_buckets(main_buckets, bucket_count);
+    bucketing_time = perform_bucketing(array, array_size, buckets_per_thread, bucket_count);
+    merging_time = merge_buckets(buckets_per_thread, bucket_count, main_buckets);
+    sorting_time = sort_buckets(main_buckets, bucket_count);
+    rewriting_time = buckets_to_array(array, main_buckets, bucket_count);
 
-    // print_buckets(main_buckets, bucket_count);
-
-    buckets_to_array(array, main_buckets, bucket_count);
-    // print_array(array, array_size);
-
+    // Deallocation of buckets
+    time0 = omp_get_wtime();
     for (i=0; i < thread_count; ++i) {
         free(buckets_per_thread[i]);
     }
     free(main_buckets);
+    time1 = omp_get_wtime();
+
+
+    dealloc_time = time1 - time0;
+    totalTime = time1 - start;
+    if (verbose) {
+        printf("Bucket allocation time: %lf\n", init_time);
+        printf("Bucketing time: %lf\n", bucketing_time);  
+        printf("Bucket merging time: %lf\n", merging_time);
+        printf("Sorting buckets time: %lf\n", sorting_time);  
+        printf("Rewriting buckets back to array: %lf\n", rewriting_time);
+        printf("Bucket deallocation time: %lf\n", dealloc_time);
+        printf("Total time: %lf\n", totalTime);
+    } else {
+        printf("%lf,", init_time);
+        printf("%lf,", bucketing_time);  
+        printf("%lf,", merging_time);
+        printf("%lf,", sorting_time);  
+        printf("%lf,", rewriting_time);
+        printf("%lf,", dealloc_time);
+        printf("%lf,", totalTime);
+    }
+
+    // printf("DEBUG: sorting split time: %lf\n", init_time + bucketing_time + merging_time + sorting_time + rewriting_time);
 }
 
 
@@ -295,31 +314,40 @@ int check_is_sorted(double* array, int size) {
 
 
 int main (int argc, char** argv) {
-    double time0, time1, totalTime;
+    double time0, randoming_time;
     int size, i;
+    int verbose = 0;
 
     if (argc < 3) {
-        fprintf(stderr, "expected: <number of processors> <array size>\n");
+        fprintf(stderr, "expected: <number of processors> <array size> [--verbose]\n");
         exit(1);
     }
     
     omp_set_num_threads(atoi(argv[1]));
     size = atoi(argv[2]);
+
+    if (argc == 4 && same_str(argv[3], "--verbose")) {
+        verbose = 1;
+    }
+
     double* array = (double*)malloc(size * sizeof(double));
 
     /* Początek obszaru równoległego. Tworzenie grupy wątków. Określanie zasięgu
     zmiennych*/
     time0 = omp_get_wtime();
+    randoming_time = random_array(array, size);
+    bucket_sort(array, size, time0, verbose);
 
-    random_array(array, size);
-    bucket_sort(array, size);
-
-    time1 = omp_get_wtime();
-    totalTime = time1 - time0;
-    
-    printf("Threads: %s\n", argv[1]);
-    printf("Array size: %d\n", size);
-    printf("Total time: %lf\n", totalTime);
-    printf("Is sorted: %s\n", check_is_sorted(array, size) ? "yes" : "no");
+    if (verbose) {
+        printf("Randoming time: %lf\n", randoming_time);
+        printf("Threads: %s\n", argv[1]);
+        printf("Array size: %d\n", size);
+        printf("Is sorted: %s\n", check_is_sorted(array, size) ? "yes" : "no");
+    } else {
+        printf("%lf,", randoming_time);
+        printf("%s,", argv[1]);
+        printf("%d,", size);
+        printf("%d\n", check_is_sorted(array, size));
+    }
     return 0;
 }
