@@ -23,7 +23,7 @@
 #define _XOPEN_SOURCE
 #define BUCKET_SIZE 20
 #define BUCKET_COUNT_MULTIPLIER 5
-#define MIN_CHUNK_SIZE 100
+#define MIN_CHUNK_SIZE 1000
 
 enum ScheduleType {S_STATIC, S_DYNAMIC, S_GUIDED, S_RUNTIME};
 
@@ -196,6 +196,8 @@ int main (int argc, char** argv) {
     array_size = atoi(argv[2]);
     printf("Threads: %s\n", argv[1]);
     printf("Array size: %d\n", array_size);
+    printf("Bucket count multiplier: %s\n", argv[3]);
+    printf("Bucket size: %s\n", argv[4]);
     
     omp_set_num_threads(atoi(argv[1]));
     sscanf(argv[3] , "%lf", &m);

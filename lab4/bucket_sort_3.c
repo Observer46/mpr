@@ -21,7 +21,7 @@
 #define _XOPEN_SOURCE
 #define BUCKET_SIZE 20
 #define BUCKET_COUNT_MULTIPLIER 5
-#define MIN_CHUNK_SIZE 100
+#define MIN_CHUNK_SIZE 1000
 
 enum ScheduleType {S_STATIC, S_DYNAMIC, S_GUIDED, S_RUNTIME};
 
@@ -234,16 +234,6 @@ double buckets_to_array(double* array, Bucket* buckets, int bucket_count) {
 }
 
 
-// void initialize_buckets(Bucket* buckets, int bucket_count) {
-//     int i;
-//     #pragma omp parallel for private(i) schedule(guided, MIN_CHUNK_SIZE)
-//     for(i = 0; i < bucket_count; i++){
-//         buckets[i].el_count = 0;
-//         buckets[i].bucket_size = BUCKET_SIZE;
-//     }
-// }
-
-
 // Should be used withing OpenMP
 void bucket_sort(double* array, int array_size, double start, int verbose) {
     int bucket_count = calculate_bucket_count(array_size);
@@ -297,8 +287,6 @@ void bucket_sort(double* array, int array_size, double start, int verbose) {
         printf("%lf,", dealloc_time);
         printf("%lf,", totalTime);
     }
-
-    // printf("DEBUG: sorting split time: %lf\n", init_time + bucketing_time + merging_time + sorting_time + rewriting_time);
 }
 
 

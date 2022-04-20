@@ -14,7 +14,7 @@ do
         do
             for p_size in 10000 100000 1000000 10000000 100000000
             do
-                ./random.out ${proc} ${p_size} ${bucket_overhead} ${bucket_size} 20
+                ./random.out ${proc} ${p_size} ${bucket_overhead} ${bucket_size} 5
             done
         done
     done
