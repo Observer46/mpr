@@ -6,11 +6,11 @@
 #SBATCH --account=plgmpr22
 #SBATCH --sockets-per-node=2
 gcc -fopenmp -o random.out analyze_random.c
-for proc in 1 5 12
-do 
-    for bucket_space_overhead in 2 3
+for bucket_space_overhead in 2 3
+do
+    for bucket_size in 10 20
     do
-        for bucket_size in 10 20
+        for proc in {1..12}
         do
             ./random.out ${proc} 10000000 ${bucket_space_overhead} ${bucket_size} 100
         done
