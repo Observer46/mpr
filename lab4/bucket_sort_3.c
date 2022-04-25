@@ -102,7 +102,7 @@ int get_bucket_idx(double val, int bucket_count) {
 
 
 int calculate_bucket_count(int array_size) {
-    return BUCKET_COUNT_MULTIPLIER * array_size / BUCKET_SIZE;
+    return (int) (BUCKET_COUNT_MULTIPLIER * array_size / BUCKET_SIZE);
 }
 
 
@@ -310,9 +310,11 @@ int main (int argc, char** argv) {
         fprintf(stderr, "expected: <number of processors> <array size> [--verbose]\n");
         exit(1);
     }
-    
-    omp_set_num_threads(atoi(argv[1]));
     size = atoi(argv[2]);
+    omp_set_num_threads(atoi(argv[1]));
+
+    printf("Threads: %s\n", argv[1]);
+    printf("Array size: %d\n\n", size);
 
     if (argc == 4 && same_str(argv[3], "--verbose")) {
         verbose = 1;
@@ -328,9 +330,8 @@ int main (int argc, char** argv) {
 
     if (verbose) {
         printf("Randoming time: %lf\n", randoming_time);
-        printf("Threads: %s\n", argv[1]);
-        printf("Array size: %d\n", size);
         printf("Is sorted: %s\n", check_is_sorted(array, size) ? "yes" : "no");
+        printf("----------\n");
     } else {
         printf("%lf,", randoming_time);
         printf("%s,", argv[1]);
