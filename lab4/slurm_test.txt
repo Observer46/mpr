@@ -120,7 +120,7 @@ Array size: 1000000
 Bucket count multiplier: 2
 Bucket size: 20
 
-Buckets with 1 elements: 2.060000
+Buckets with 1 elements: 4.060000
 Buckets with 2 elements: 10.740000
 Buckets with 3 elements: 46.780000
 Buckets with 4 elements: 151.090000

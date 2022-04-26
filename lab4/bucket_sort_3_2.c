@@ -20,19 +20,16 @@
 
 #define _XOPEN_SOURCE
 #define BUCKET_SIZE 20
-#define BUCKET_SIZE_MUL 3
-#define BUCKET_COUNT_MULTIPLIER 3
-#define REAL_BUCKET_SIZE ((BUCKET_SIZE) * (BUCKET_SIZE_MUL))
+#define BUCKET_COUNT_MULTIPLIER 5
 #define MIN_CHUNK_SIZE 1000
 
 enum ScheduleType {S_STATIC, S_DYNAMIC, S_GUIDED, S_RUNTIME};
 
 struct Bucket
 {
-    double elements[REAL_BUCKET_SIZE];
+    double elements[BUCKET_SIZE];
     int el_count;
     int bucket_size;
-    int th_idx;
 };
 typedef struct Bucket Bucket;
 
@@ -113,7 +110,7 @@ void add_node_to_bucket(Bucket* buckets, int bucket_count, double val) {
     int bucket_idx = get_bucket_idx(val, bucket_count);
     int el_in_buckets = buckets[bucket_idx].el_count;
 
-    if (el_in_buckets >= REAL_BUCKET_SIZE) {
+    if (el_in_buckets >= BUCKET_SIZE) {
         printf("Max bucket size reached on idx: %d\n", bucket_idx);
         exit(1);
     }
@@ -124,43 +121,41 @@ void add_node_to_bucket(Bucket* buckets, int bucket_count, double val) {
 
 
 double perform_bucketing(double* array, int array_size, Bucket** buckets_per_thread, int bucket_count) {
-    double time0, time1, totalTime;
     int i;
-
+    double time0, time1, totalTime;
+    
     time0 = omp_get_wtime();
-    #pragma omp parallel private(i) 
+    #pragma omp parallel private(i)
     {
         Bucket* my_buckets = buckets_per_thread[omp_get_thread_num()];
         #pragma omp for schedule(guided, MIN_CHUNK_SIZE)
-        for (i = 0; i < array_size; ++i) {
+        for (i=0; i < array_size; ++i) {
             add_node_to_bucket(my_buckets, bucket_count, array[i]);
         }
-        // print_buckets(my_buckets, bucket_count);
     }
-
     time1 = omp_get_wtime();
     totalTime = time1 - time0;
+
     return totalTime;
 }
 
 
 double merge_buckets(Bucket** buckets_per_thread, int bucket_count, Bucket* main_buckets) {
+    int i, j, k;
     double time0, time1, totalTime;
-    int i, j ,k;
+    
     time0 = omp_get_wtime();
-    int thread_count = omp_get_max_threads();
 
-    // printf("1---\n");
-    // for (i = 0; i < thread_count; ++i) {
-    //     print_buckets(buckets_per_thread[i], bucket_count);
-    // }
-    // printf("1---\n");
-
-    #pragma omp parallel for private(i, j, k) schedule(guided, MIN_CHUNK_SIZE)
-    for (i = 0; i < bucket_count; ++i) {
-        for (j = 0; j < thread_count; ++j) {
-            for(k = 0; k < buckets_per_thread[j][i].el_count; ++k) {
-                add_node_to_bucket(main_buckets, bucket_count, buckets_per_thread[j][i].elements[k]);
+    #pragma omp parallel private(i, j, k)
+    {
+        int thread_count = omp_get_num_threads();
+        #pragma omp for schedule(guided, MIN_CHUNK_SIZE)
+        for (i = 0; i < bucket_count; ++i) {
+            for (j = 0; j < thread_count; ++j) {
+                for(k = 0; k < buckets_per_thread[j][i].el_count; ++k) {
+                    add_node_to_bucket(main_buckets, bucket_count, buckets_per_thread[j][i].elements[k]);
+                    // printf("Adding: %lf, for i j k = {%d %d %d}\n", buckets_per_thread[j][i].elements[k], i, j, k);
+                }
             }
         }
     }
@@ -172,9 +167,9 @@ double merge_buckets(Bucket** buckets_per_thread, int bucket_count, Bucket* main
 
 
 void sort_single_bucket(Bucket* single_bucket) {
+    int i, j;
     double key;
     double* array = single_bucket -> elements;
-    int i, j;
 
     for (i = 1; i < single_bucket -> el_count; ++i) {
         key = array[i];
@@ -189,12 +184,13 @@ void sort_single_bucket(Bucket* single_bucket) {
 
 
 double sort_buckets(Bucket* buckets, int bucket_count) { 
-    double time0, time1, totalTime;
     int i;
+    double time0, time1, totalTime;
+
     time0 = omp_get_wtime();
 
     #pragma omp parallel for private(i) schedule(guided, MIN_CHUNK_SIZE)
-    for (i = 0; i < bucket_count; ++i) {
+    for (i=0; i < bucket_count; ++i) {
         sort_single_bucket(&buckets[i]);
     }
 
@@ -204,46 +200,29 @@ double sort_buckets(Bucket* buckets, int bucket_count) {
 }
 
 
-void fill_elem_countand_totals(Bucket* buckets, int bucket_count, int* bucket_thread_offset) {
+void seq_fill_elem_count(Bucket* buckets, int bucket_count) {
     int i;
-    int counter;
-
-    #pragma omp parallel private(i, counter)
-    {
-        counter = 0;
-        #pragma omp for schedule(static)
-        for (i = 0; i < bucket_count; ++i) {
-            buckets[i].bucket_size = counter;   // .bucket_size counts how many are there elements prior to this bucket
-            counter += buckets[i].el_count;
-            buckets[i].th_idx = omp_get_thread_num();
-        }
-
-        if (omp_get_thread_num() < omp_get_max_threads() - 1) {
-            bucket_thread_offset[omp_get_thread_num() + 1] = counter;
-        }
-        
-    }
-
-    for (i = 1; i < omp_get_max_threads(); ++i) {
-        bucket_thread_offset[i] += bucket_thread_offset[i - 1];
+    int counter = 0;
+    for (i = 0; i < bucket_count; ++i) {
+        buckets[i].bucket_size = counter;   // .bucket_size counts how many are there elements prior to this bucket
+        counter += buckets[i].el_count;
     }
 }
 
 
 double buckets_to_array(double* array, Bucket* buckets, int bucket_count) {
+    int i, j;
     int array_iter = 0;
     double time0, time1, totalTime;
-    int bucket_thread_offset[12] = { 0 };
-    int i, j;
 
     time0 = omp_get_wtime();
 
-    fill_elem_countand_totals(buckets, bucket_count, bucket_thread_offset); 
+    // sequencally count how many elements are prior to each bucket
+    seq_fill_elem_count(buckets, bucket_count); 
 
     #pragma omp parallel for private(i, j) schedule(guided, MIN_CHUNK_SIZE)
     for (i = 0; i < bucket_count; ++i) {
-        int th_writer_num = buckets[i].th_idx;
-        int prior_to_this = buckets[i].bucket_size + bucket_thread_offset[th_writer_num];
+        int prior_to_this = buckets[i].bucket_size;
         for (j = 0; j < buckets[i].el_count; ++j) {
             array[prior_to_this + j] = buckets[i].elements[j];
         }
@@ -258,8 +237,8 @@ double buckets_to_array(double* array, Bucket* buckets, int bucket_count) {
 // Should be used withing OpenMP
 void bucket_sort(double* array, int array_size, double start, int verbose) {
     int bucket_count = calculate_bucket_count(array_size);
-    int thread_count = omp_get_max_threads();
     int i;
+    int thread_count = omp_get_max_threads();
 
     double time0, time1, totalTime;
     double init_time, bucketing_time, merging_time, sorting_time, rewriting_time, dealloc_time;
@@ -269,48 +248,43 @@ void bucket_sort(double* array, int array_size, double start, int verbose) {
     Bucket* main_buckets = (Bucket*) calloc(bucket_count, sizeof(Bucket));
     Bucket** buckets_per_thread = (Bucket**) malloc(thread_count * sizeof(Bucket*));
 
-    for (i = 0; i < thread_count; ++i) {
+    for (i=0; i < thread_count; ++i) {
         buckets_per_thread[i] = (Bucket*) calloc(bucket_count, sizeof(Bucket));
     }
-
     time1 = omp_get_wtime();
     init_time = time1 - time0;
-    // print_array(array, array_size);
+    
     bucketing_time = perform_bucketing(array, array_size, buckets_per_thread, bucket_count);
     merging_time = merge_buckets(buckets_per_thread, bucket_count, main_buckets);
-    // printf("---\n");
-    // print_buckets(main_buckets, bucket_count);
     sorting_time = sort_buckets(main_buckets, bucket_count);
     rewriting_time = buckets_to_array(array, main_buckets, bucket_count);
-    // print_array(array, array_size);
 
     // Deallocation of buckets
-    // time0 = omp_get_wtime();
-    // for (i=0; i < thread_count; ++i) {
-    //     free(buckets_per_thread[i]);
-    // }
-    // free(main_buckets);
+    time0 = omp_get_wtime();
+    for (i=0; i < thread_count; ++i) {
+        free(buckets_per_thread[i]);
+    }
+    free(main_buckets);
     time1 = omp_get_wtime();
 
-    // dealloc_time = time1 - time0;
-    totalTime = time1 - start;
 
+    dealloc_time = time1 - time0;
+    totalTime = time1 - start;
     if (verbose) {
         printf("Bucket allocation time: %lf\n", init_time);
         printf("Bucketing time: %lf\n", bucketing_time);  
         printf("Bucket merging time: %lf\n", merging_time);
         printf("Sorting buckets time: %lf\n", sorting_time);  
         printf("Rewriting buckets back to array: %lf\n", rewriting_time);
-        // printf("Bucket deallocation time: %lf\n", dealloc_time);
+        printf("Bucket deallocation time: %lf\n", dealloc_time);
         printf("Total time: %lf\n", totalTime);
-        printf("Bucket count: %d\n", bucket_count);
     } else {
         printf("%lf,", init_time);
         printf("%lf,", bucketing_time);  
         printf("%lf,", merging_time);
         printf("%lf,", sorting_time);  
         printf("%lf,", rewriting_time);
-        // printf("%lf,", dealloc_time);
+        printf("%lf,", dealloc_time);
         printf("%lf,", totalTime);
     }
 }
@@ -320,7 +294,6 @@ int check_is_sorted(double* array, int size) {
     int i;
     for (i = 1; i < size; ++i) {
         if (array[i - 1] > array[i]) {
-            printf("On indeces: %d and %d we got: %f and %f\n", i-1, i, array[i-1], array[i]);
             return 0;   // false
         }
     }
