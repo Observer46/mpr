@@ -1,0 +1,5345 @@
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.801980
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 9, bucket size variance: 1.739147
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.748837
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.750401
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 13, bucket size variance: 1.750208
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 18, bucket size variance: 2.750283
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 18, bucket size variance: 4.976300
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 18, bucket size variance: 5.014910
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 19, bucket size variance: 5.003048
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 20, bucket size variance: 4.998569
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 19, bucket size variance: 8.083271
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 21, bucket size variance: 7.730218
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 21, bucket size variance: 7.773942
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 24, bucket size variance: 7.752646
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 26, bucket size variance: 7.750876
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 23, bucket size variance: 10.620000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 25, bucket size variance: 9.883400
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 25, bucket size variance: 10.039300
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 28, bucket size variance: 10.013026
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 31, bucket size variance: 9.992043
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 27, bucket size variance: 13.885000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 27, bucket size variance: 12.566500
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 30, bucket size variance: 12.797275
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 33, bucket size variance: 12.740640
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 36, bucket size variance: 12.749554
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.048400
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.001000
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.001312
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 11, bucket size variance: 0.999375
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 12, bucket size variance: 1.000095
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 9, bucket size variance: 2.192333
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 10, bucket size variance: 2.115067
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.111040
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.111535
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 14, bucket size variance: 2.111381
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 12, bucket size variance: 3.657333
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 13, bucket size variance: 3.435067
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 16, bucket size variance: 3.442947
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 15, bucket size variance: 3.444194
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 17, bucket size variance: 3.443908
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 18, bucket size variance: 4.976300
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 18, bucket size variance: 5.014910
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 19, bucket size variance: 5.003048
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 20, bucket size variance: 4.998569
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 16, bucket size variance: 7.405333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 16, bucket size variance: 7.405333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 16, bucket size variance: 7.405333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 16, bucket size variance: 7.405333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 16, bucket size variance: 7.405333
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 18, bucket size variance: 7.088667
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 18, bucket size variance: 7.088667
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 18, bucket size variance: 7.088667
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 18, bucket size variance: 7.088667
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 18, bucket size variance: 7.088667
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 21, bucket size variance: 7.118213
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 22, bucket size variance: 7.116984
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 26, bucket size variance: 7.109610
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 21, bucket size variance: 8.841667
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 21, bucket size variance: 8.841667
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 21, bucket size variance: 8.841667
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 21, bucket size variance: 8.841667
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 21, bucket size variance: 8.841667
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 21, bucket size variance: 8.389333
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 21, bucket size variance: 8.389333
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 21, bucket size variance: 8.389333
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 21, bucket size variance: 8.389333
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 21, bucket size variance: 8.389333
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 23, bucket size variance: 8.477650
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 23, bucket size variance: 8.477650
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 23, bucket size variance: 8.477650
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 23, bucket size variance: 8.477650
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 23, bucket size variance: 8.477650
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 25, bucket size variance: 8.450815
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 25, bucket size variance: 8.450815
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 25, bucket size variance: 8.450815
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 25, bucket size variance: 8.450815
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 25, bucket size variance: 8.450815
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 28, bucket size variance: 8.447128
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 6, bucket size variance: 1.331583
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 7, bucket size variance: 1.313253
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.312749
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.312415
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 10, bucket size variance: 1.312535
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 7, bucket size variance: 1.352250
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.314050
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.313212
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.312565
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 13, bucket size variance: 1.312678
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 18, bucket size variance: 2.750283
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 12, bucket size variance: 4.398350
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 4.398350
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 4.398350
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 4.398350
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 4.398350
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 14, bucket size variance: 4.292357
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.292357
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.292357
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.292357
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.292357
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 16, bucket size variance: 4.324946
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 17, bucket size variance: 4.311999
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 18, bucket size variance: 4.313029
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 18, bucket size variance: 4.976300
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 18, bucket size variance: 4.976300
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 18, bucket size variance: 4.976300
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 18, bucket size variance: 4.976300
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 18, bucket size variance: 4.976300
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 18, bucket size variance: 5.014910
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 18, bucket size variance: 5.014910
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 18, bucket size variance: 5.014910
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 18, bucket size variance: 5.014910
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 18, bucket size variance: 5.014910
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 19, bucket size variance: 5.003048
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 19, bucket size variance: 5.003048
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 19, bucket size variance: 5.003048
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 19, bucket size variance: 5.003048
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 19, bucket size variance: 5.003048
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 20, bucket size variance: 4.998569
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.998569
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.998569
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.998569
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.998569
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 19, bucket size variance: 6.523750
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 19, bucket size variance: 6.523750
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 19, bucket size variance: 6.523750
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 19, bucket size variance: 6.523750
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 19, bucket size variance: 6.523750
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 20, bucket size variance: 6.304000
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 20, bucket size variance: 6.304000
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 20, bucket size variance: 6.304000
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 20, bucket size variance: 6.304000
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 20, bucket size variance: 6.304000
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 19, bucket size variance: 6.331862
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 19, bucket size variance: 6.331862
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 19, bucket size variance: 6.331862
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 19, bucket size variance: 6.331862
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 19, bucket size variance: 6.331862
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 22, bucket size variance: 6.313969
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 22, bucket size variance: 6.313969
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 22, bucket size variance: 6.313969
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 22, bucket size variance: 6.313969
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 22, bucket size variance: 6.313969
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 24, bucket size variance: 6.311460
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 24, bucket size variance: 6.311460
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 24, bucket size variance: 6.311460
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 24, bucket size variance: 6.311460
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 24, bucket size variance: 6.311460
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 6, bucket size variance: 1.138933
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 7, bucket size variance: 1.110600
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.111267
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 10, bucket size variance: 1.111091
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 9, bucket size variance: 1.111108
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 7, bucket size variance: 1.154667
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.120400
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 9, bucket size variance: 1.124004
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 10, bucket size variance: 1.123484
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.123517
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 10, bucket size variance: 2.363556
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.363556
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.363556
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.363556
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.363556
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.245822
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 13, bucket size variance: 2.276573
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.272692
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 15, bucket size variance: 2.271167
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 12, bucket size variance: 3.657333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.657333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.657333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.657333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.657333
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 13, bucket size variance: 3.435067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.435067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.435067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.435067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.435067
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 16, bucket size variance: 3.442947
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 15, bucket size variance: 3.444194
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.444194
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.444194
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.444194
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.444194
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 17, bucket size variance: 3.443908
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 14, bucket size variance: 4.811556
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.811556
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.811556
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.811556
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.811556
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 15, bucket size variance: 4.609867
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 15, bucket size variance: 4.609867
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 15, bucket size variance: 4.609867
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 15, bucket size variance: 4.609867
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 15, bucket size variance: 4.609867
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 17, bucket size variance: 4.661840
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.661840
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.661840
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.661840
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.661840
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 17, bucket size variance: 4.645793
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.645793
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.645793
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.645793
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.645793
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 21, bucket size variance: 4.641167
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 15, bucket size variance: 5.937778
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.937778
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.937778
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.937778
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.937778
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 16, bucket size variance: 5.818333
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 16, bucket size variance: 5.818333
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 16, bucket size variance: 5.818333
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 16, bucket size variance: 5.818333
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 16, bucket size variance: 5.818333
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 19, bucket size variance: 5.882656
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 19, bucket size variance: 5.882656
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 19, bucket size variance: 5.882656
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 19, bucket size variance: 5.882656
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 19, bucket size variance: 5.882656
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 22, bucket size variance: 5.868502
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 22, bucket size variance: 5.868502
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 22, bucket size variance: 5.868502
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 22, bucket size variance: 5.868502
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 22, bucket size variance: 5.868502
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 21, bucket size variance: 5.865972
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 21, bucket size variance: 5.865972
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 21, bucket size variance: 5.865972
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 21, bucket size variance: 5.865972
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 21, bucket size variance: 5.865972
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 6, bucket size variance: 0.973959
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 7, bucket size variance: 0.958912
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 9, bucket size variance: 0.960444
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 8, bucket size variance: 0.959666
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 10, bucket size variance: 0.960021
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.048400
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.001000
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.001312
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 11, bucket size variance: 0.999375
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 12, bucket size variance: 1.000095
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 9, bucket size variance: 2.111200
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.111200
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.111200
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.111200
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.111200
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.993440
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.998788
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 13, bucket size variance: 1.999085
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 14, bucket size variance: 1.999819
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 11, bucket size variance: 3.075008
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 11, bucket size variance: 3.075008
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 11, bucket size variance: 3.075008
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 11, bucket size variance: 3.075008
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 11, bucket size variance: 3.075008
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 13, bucket size variance: 2.983560
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.983560
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.983560
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.983560
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.983560
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 14, bucket size variance: 3.009408
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.009408
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.009408
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.009408
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.009408
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 15, bucket size variance: 3.001034
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.001034
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.001034
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.001034
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.001034
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 17, bucket size variance: 2.999033
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 12, bucket size variance: 4.232000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 4.232000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 4.232000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 4.232000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 4.232000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 14, bucket size variance: 3.968800
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.968800
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.968800
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.968800
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.968800
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 16, bucket size variance: 4.014704
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 16, bucket size variance: 4.014704
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 16, bucket size variance: 4.014704
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 16, bucket size variance: 4.014704
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 16, bucket size variance: 4.014704
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 18, bucket size variance: 3.999644
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 18, bucket size variance: 3.999644
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 18, bucket size variance: 3.999644
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 18, bucket size variance: 3.999644
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 18, bucket size variance: 3.999644
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 20, bucket size variance: 3.998399
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 3.998399
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 3.998399
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 3.998399
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 3.998399
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 15, bucket size variance: 5.208000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 18, bucket size variance: 4.976300
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 18, bucket size variance: 4.976300
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 18, bucket size variance: 4.976300
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 18, bucket size variance: 4.976300
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 18, bucket size variance: 4.976300
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 18, bucket size variance: 5.014910
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 18, bucket size variance: 5.014910
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 18, bucket size variance: 5.014910
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 18, bucket size variance: 5.014910
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 18, bucket size variance: 5.014910
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 19, bucket size variance: 5.003048
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 19, bucket size variance: 5.003048
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 19, bucket size variance: 5.003048
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 19, bucket size variance: 5.003048
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 19, bucket size variance: 5.003048
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 20, bucket size variance: 4.998569
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.998569
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.998569
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.998569
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.998569
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 5, bucket size variance: 0.851797
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 7, bucket size variance: 0.843056
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 7, bucket size variance: 0.843267
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 8, bucket size variance: 0.842792
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 9, bucket size variance: 0.843035
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 7, bucket size variance: 1.774182
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.733382
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.736047
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 9, bucket size variance: 1.735088
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.735590
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 8, bucket size variance: 2.569455
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 2.569455
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 2.569455
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 2.569455
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 2.569455
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 11, bucket size variance: 2.482473
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 11, bucket size variance: 2.491135
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.487335
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 13, bucket size variance: 2.487589
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 10, bucket size variance: 3.339334
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 3.339334
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 3.339334
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 3.339334
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 3.339334
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 12, bucket size variance: 3.251295
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.251295
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.251295
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.251295
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.251295
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 13, bucket size variance: 3.260668
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.260668
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.260668
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.260668
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.260668
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 15, bucket size variance: 3.256069
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.256069
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.256069
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.256069
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.256069
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 18, bucket size variance: 3.256823
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 13, bucket size variance: 4.308364
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 13, bucket size variance: 4.308364
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 13, bucket size variance: 4.308364
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 13, bucket size variance: 4.308364
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 13, bucket size variance: 4.308364
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 14, bucket size variance: 4.023927
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.023927
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.023927
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.023927
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.023927
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 15, bucket size variance: 4.061033
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 15, bucket size variance: 4.061033
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 15, bucket size variance: 4.061033
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 15, bucket size variance: 4.061033
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 15, bucket size variance: 4.061033
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 17, bucket size variance: 4.046526
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.046526
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.046526
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.046526
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.046526
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 20, bucket size variance: 4.041383
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.041383
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.041383
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.041383
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.041383
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 16, bucket size variance: 5.100000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 16, bucket size variance: 5.100000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 16, bucket size variance: 5.100000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 16, bucket size variance: 5.100000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 16, bucket size variance: 5.100000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 14, bucket size variance: 4.805273
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.805273
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.805273
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.805273
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.805273
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 17, bucket size variance: 4.842327
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.842327
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.842327
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.842327
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.842327
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 17, bucket size variance: 4.842637
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.842637
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.842637
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.842637
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 17, bucket size variance: 4.842637
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 21, bucket size variance: 4.841918
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 21, bucket size variance: 4.841918
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 21, bucket size variance: 4.841918
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 21, bucket size variance: 4.841918
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 21, bucket size variance: 4.841918
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 6, bucket size variance: 0.755100
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 6, bucket size variance: 0.749030
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 7, bucket size variance: 0.750356
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 8, bucket size variance: 0.749909
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 9, bucket size variance: 0.750008
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 7, bucket size variance: 1.548167
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 7, bucket size variance: 1.527383
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 10, bucket size variance: 1.528490
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 10, bucket size variance: 1.527793
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 10, bucket size variance: 1.527910
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 9, bucket size variance: 2.192333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.192333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.192333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.192333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.192333
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 10, bucket size variance: 2.115067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.115067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.115067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.115067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.115067
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.111040
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.111535
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 14, bucket size variance: 2.111381
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 18, bucket size variance: 2.750283
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 12, bucket size variance: 3.657333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.657333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.657333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.657333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.657333
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 13, bucket size variance: 3.435067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.435067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.435067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.435067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.435067
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 16, bucket size variance: 3.442947
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 16, bucket size variance: 3.442947
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 16, bucket size variance: 3.442947
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 16, bucket size variance: 3.442947
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 16, bucket size variance: 3.442947
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 15, bucket size variance: 3.444194
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.444194
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.444194
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.444194
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.444194
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 17, bucket size variance: 3.443908
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 17, bucket size variance: 3.443908
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 17, bucket size variance: 3.443908
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 17, bucket size variance: 3.443908
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 17, bucket size variance: 3.443908
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 14, bucket size variance: 4.379167
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.379167
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.379167
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.379167
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 14, bucket size variance: 4.379167
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 16, bucket size variance: 4.178750
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 16, bucket size variance: 4.178750
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 16, bucket size variance: 4.178750
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 16, bucket size variance: 4.178750
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 16, bucket size variance: 4.178750
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 16, bucket size variance: 4.212892
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 16, bucket size variance: 4.212892
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 16, bucket size variance: 4.212892
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 16, bucket size variance: 4.212892
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 16, bucket size variance: 4.212892
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 18, bucket size variance: 4.193717
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 18, bucket size variance: 4.193717
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 18, bucket size variance: 4.193717
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 18, bucket size variance: 4.193717
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 18, bucket size variance: 4.193717
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 20, bucket size variance: 4.194187
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.194187
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.194187
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.194187
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 20, bucket size variance: 4.194187
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 6, bucket size variance: 0.617152
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 7, bucket size variance: 0.611658
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 6, bucket size variance: 0.611987
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 7, bucket size variance: 0.612176
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 8, bucket size variance: 0.612240
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 6, bucket size variance: 1.233429
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 7, bucket size variance: 1.224829
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.224810
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 9, bucket size variance: 1.224284
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 10, bucket size variance: 1.224420
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.652857
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.652857
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.652857
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.652857
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.652857
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 9, bucket size variance: 1.612114
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 9, bucket size variance: 1.612114
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 9, bucket size variance: 1.612114
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 9, bucket size variance: 1.612114
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 9, bucket size variance: 1.612114
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 10, bucket size variance: 1.612286
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 10, bucket size variance: 1.612286
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 10, bucket size variance: 1.612286
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 10, bucket size variance: 1.612286
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 10, bucket size variance: 1.612286
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.611534
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 12, bucket size variance: 1.612221
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 9, bucket size variance: 2.231033
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.231033
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.231033
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.231033
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.231033
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.141216
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.141216
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.141216
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.141216
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.141216
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.163016
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.163016
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.163016
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.163016
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.163016
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 13, bucket size variance: 2.163055
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.163055
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.163055
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.163055
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.163055
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 14, bucket size variance: 2.163605
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 14, bucket size variance: 2.163605
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 14, bucket size variance: 2.163605
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 14, bucket size variance: 2.163605
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 14, bucket size variance: 2.163605
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 11, bucket size variance: 3.724571
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 11, bucket size variance: 3.724571
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 11, bucket size variance: 3.724571
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 11, bucket size variance: 3.724571
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 11, bucket size variance: 3.724571
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 12, bucket size variance: 3.573200
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.573200
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.573200
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.573200
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.573200
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 13, bucket size variance: 3.605091
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.605091
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.605091
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.605091
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 13, bucket size variance: 3.605091
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 15, bucket size variance: 3.591132
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.591132
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.591132
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.591132
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.591132
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 17, bucket size variance: 3.591610
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 17, bucket size variance: 3.591610
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 17, bucket size variance: 3.591610
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 17, bucket size variance: 3.591610
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 17, bucket size variance: 3.591610
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 12, bucket size variance: 3.985000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.985000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.985000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.985000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.985000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 15, bucket size variance: 3.874071
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.874071
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.874071
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.874071
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.874071
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 15, bucket size variance: 3.910907
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.910907
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.910907
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.910907
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.910907
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 16, bucket size variance: 3.898599
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 16, bucket size variance: 3.898599
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 16, bucket size variance: 3.898599
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 16, bucket size variance: 3.898599
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 16, bucket size variance: 3.898599
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 18, bucket size variance: 3.898484
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 18, bucket size variance: 3.898484
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 18, bucket size variance: 3.898484
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 18, bucket size variance: 3.898484
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 18, bucket size variance: 3.898484
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 5, bucket size variance: 0.517363
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 6, bucket size variance: 0.515491
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 6, bucket size variance: 0.515746
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 7, bucket size variance: 0.515547
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 9, bucket size variance: 0.515596
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 6, bucket size variance: 1.025750
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 7, bucket size variance: 1.016913
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 7, bucket size variance: 1.016031
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.015585
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 10, bucket size variance: 1.015664
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 7, bucket size variance: 1.352250
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 7, bucket size variance: 1.352250
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 7, bucket size variance: 1.352250
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 7, bucket size variance: 1.352250
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 7, bucket size variance: 1.352250
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.314050
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.314050
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.314050
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.314050
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.314050
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.313212
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.312565
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 13, bucket size variance: 1.312678
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 9, bucket size variance: 2.739734
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.739734
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.739734
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.739734
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.739734
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 10, bucket size variance: 2.640598
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.640598
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.640598
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.640598
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.640598
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.638747
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.638747
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.638747
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.638747
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.638747
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.640300
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.640300
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.640300
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.640300
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.640300
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 13, bucket size variance: 2.640498
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.640498
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.640498
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.640498
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.640498
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 18, bucket size variance: 2.750283
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 18, bucket size variance: 2.750283
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 18, bucket size variance: 2.750283
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 18, bucket size variance: 2.750283
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 18, bucket size variance: 2.750283
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 11, bucket size variance: 3.312500
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 11, bucket size variance: 3.312500
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 11, bucket size variance: 3.312500
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 11, bucket size variance: 3.312500
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 11, bucket size variance: 3.312500
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 14, bucket size variance: 3.122875
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.122875
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.122875
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.122875
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.122875
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 15, bucket size variance: 3.150338
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.150338
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.150338
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.150338
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.150338
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 15, bucket size variance: 3.140798
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.140798
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.140798
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.140798
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.140798
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 17, bucket size variance: 3.140483
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 17, bucket size variance: 3.140483
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 17, bucket size variance: 3.140483
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 17, bucket size variance: 3.140483
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 17, bucket size variance: 3.140483
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 6, bucket size variance: 0.450667
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 5, bucket size variance: 0.444880
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 6, bucket size variance: 0.444201
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 6, bucket size variance: 0.444353
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 7, bucket size variance: 0.444451
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 5, bucket size variance: 0.867222
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 5, bucket size variance: 0.867222
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 5, bucket size variance: 0.867222
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 5, bucket size variance: 0.867222
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 5, bucket size variance: 0.867222
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 7, bucket size variance: 0.863033
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 8, bucket size variance: 0.864611
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 8, bucket size variance: 0.864241
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 10, bucket size variance: 0.864215
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 7, bucket size variance: 1.154667
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 7, bucket size variance: 1.154667
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 7, bucket size variance: 1.154667
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 7, bucket size variance: 1.154667
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 7, bucket size variance: 1.154667
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.120400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.120400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.120400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.120400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.120400
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 9, bucket size variance: 1.124004
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 9, bucket size variance: 1.124004
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 9, bucket size variance: 1.124004
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 9, bucket size variance: 1.124004
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 9, bucket size variance: 1.124004
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 10, bucket size variance: 1.123484
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 10, bucket size variance: 1.123484
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 10, bucket size variance: 1.123484
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 10, bucket size variance: 1.123484
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 10, bucket size variance: 1.123484
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.123517
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 9, bucket size variance: 2.192333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.192333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.192333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.192333
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.192333
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 10, bucket size variance: 2.115067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.115067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.115067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.115067
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.115067
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.111040
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.111040
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.111040
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.111040
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.111040
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.111535
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.111535
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.111535
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.111535
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.111535
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 14, bucket size variance: 2.111381
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 14, bucket size variance: 2.111381
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 14, bucket size variance: 2.111381
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 14, bucket size variance: 2.111381
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 14, bucket size variance: 2.111381
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 10, bucket size variance: 2.363556
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.363556
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.363556
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.363556
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.363556
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.245822
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.245822
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.245822
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.245822
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.245822
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 13, bucket size variance: 2.276573
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.276573
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.276573
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.276573
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.276573
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.272692
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.272692
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.272692
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.272692
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.272692
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 15, bucket size variance: 2.271167
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 15, bucket size variance: 2.271167
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 15, bucket size variance: 2.271167
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 15, bucket size variance: 2.271167
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 15, bucket size variance: 2.271167
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 10, bucket size variance: 3.460000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 3.460000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 3.460000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 3.460000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 3.460000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 12, bucket size variance: 3.364056
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.364056
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.364056
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.364056
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 3.364056
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 14, bucket size variance: 3.394367
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.394367
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.394367
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.394367
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 14, bucket size variance: 3.394367
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 15, bucket size variance: 3.381722
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.381722
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.381722
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.381722
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 15, bucket size variance: 3.381722
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 16, bucket size variance: 3.383367
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 16, bucket size variance: 3.383367
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 16, bucket size variance: 3.383367
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 16, bucket size variance: 3.383367
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 16, bucket size variance: 3.383367
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 5, bucket size variance: 0.393904
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 7, bucket size variance: 0.390294
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 6, bucket size variance: 0.389858
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 6, bucket size variance: 0.389893
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 8, bucket size variance: 0.389983
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 6, bucket size variance: 0.755100
+Array mean: 0.498830, array variance: 0.083788
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 6, bucket size variance: 0.749030
+Array mean: 0.499511, array variance: 0.083340
+
+Method: failed
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 7, bucket size variance: 0.750356
+Array mean: 0.499785, array variance: 0.083305
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 8, bucket size variance: 0.749909
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 9, bucket size variance: 0.750008
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.048400
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.048400
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.048400
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.048400
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.048400
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.001000
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.001000
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.001000
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.001000
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.001000
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.001312
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.001312
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.001312
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.001312
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.001312
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 11, bucket size variance: 0.999375
+Array mean: 0.499890, array variance: 0.083311
+
+Method: failed
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 12, bucket size variance: 1.000095
+Array mean: 0.499973, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.801980
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.801980
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.801980
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.801980
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 8, bucket size variance: 1.801980
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 9, bucket size variance: 1.739147
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 9, bucket size variance: 1.739147
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 9, bucket size variance: 1.739147
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 9, bucket size variance: 1.739147
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 9, bucket size variance: 1.739147
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.748837
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.748837
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.748837
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.748837
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.748837
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.750401
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.750401
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.750401
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.750401
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.750401
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 13, bucket size variance: 1.750208
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 13, bucket size variance: 1.750208
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 13, bucket size variance: 1.750208
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 13, bucket size variance: 1.750208
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 13, bucket size variance: 1.750208
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 9, bucket size variance: 2.111200
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.111200
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.111200
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.111200
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 9, bucket size variance: 2.111200
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.993440
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.993440
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.993440
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.993440
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.993440
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.998788
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.998788
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.998788
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.998788
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 11, bucket size variance: 1.998788
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 13, bucket size variance: 1.999085
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 1.999085
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 1.999085
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 1.999085
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 1.999085
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 14, bucket size variance: 1.999819
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 14, bucket size variance: 1.999819
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 14, bucket size variance: 1.999819
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 14, bucket size variance: 1.999819
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 14, bucket size variance: 1.999819
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method 1:
+Max in bucket: 10, bucket size variance: 2.843000
+Array mean: 0.498830, array variance: 0.083788
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.750400
+Array mean: 0.499511, array variance: 0.083340
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 1000000
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method 1:
+Max in bucket: 12, bucket size variance: 2.751850
+Array mean: 0.499785, array variance: 0.083305
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 10000000
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method 1:
+Max in bucket: 13, bucket size variance: 2.750402
+Array mean: 0.499890, array variance: 0.083311
+
+Method: succeded
+------------------
+Threads: 1
+Array size: 100000000
+Method 1:
+Max in bucket: 18, bucket size variance: 2.750283
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 18, bucket size variance: 2.750283
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 18, bucket size variance: 2.750283
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 18, bucket size variance: 2.750283
+Array mean: 0.499973, array variance: 0.083352
+
+Method 1:
+Max in bucket: 18, bucket size variance: 2.750283
+Array mean: 0.499973, array variance: 0.083352
+
+Method: succeded
+------------------
+Threads: 2
+Array size: 10000
+Method 1:
+Max in bucket: 8, bucket size variance: 1.783978
+Array mean: 0.501354, array variance: 0.084365
+
+Method: failed
+------------------
+Threads: 2
+Array size: 100000
+Method 1:
+Max in bucket: 10, bucket size variance: 1.742927
+Array mean: 0.500123, array variance: 0.083195
+
+Method: failed
+------------------
+Threads: 2
+Array size: 1000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.748708
+Array mean: 0.500016, array variance: 0.083309
+
+Method: failed
+------------------
+Threads: 2
+Array size: 10000000
+Method 1:
+Max in bucket: 11, bucket size variance: 1.749985
+Array mean: 0.499857, array variance: 0.083329
+
+Method: failed
+------------------
+Threads: 2
+Array size: 100000000
+Method 1:
+Max in bucket: 13, bucket size variance: 1.749735
+Array mean: 0.499988, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 2
+Array size: 10000
+Method 1:
+Max in bucket: 13, bucket size variance: 2.844500
+Array mean: 0.501162, array variance: 0.084331
+
+Method: failed
+------------------
+Threads: 2
+Array size: 100000
+Method 1:
+Max in bucket: 11, bucket size variance: 2.759750
+Array mean: 0.500089, array variance: 0.083185
+
+Method: failed
+------------------
+Threads: 2
+Array size: 1000000
+Method 1:
+Max in bucket: 13, bucket size variance: 2.751335
+Array mean: 0.500044, array variance: 0.083306
+
+Method: failed
+------------------
+Threads: 2
+Array size: 10000000
+Method 1:
+Max in bucket: 14, bucket size variance: 2.751369
+Array mean: 0.499853, array variance: 0.083328
+
+Method: failed
+------------------
+Threads: 2
+Array size: 100000000
+Method 1:
+Max in bucket: 16, bucket size variance: 2.749472
+Array mean: 0.499986, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 2
+Array size: 10000
+Method 1:
+Max in bucket: 16, bucket size variance: 5.262000
+Array mean: 0.503332, array variance: 0.084214
+
+Method: failed
+------------------
+Threads: 2
+Array size: 100000
+Method 1:
+Max in bucket: 16, bucket size variance: 4.978300
+Array mean: 0.500249, array variance: 0.083194
+
+Method: failed
+------------------
+Threads: 2
+Array size: 1000000
+Method 1:
+Max in bucket: 20, bucket size variance: 5.005830
+Array mean: 0.500062, array variance: 0.083296
+
+Method: failed
+------------------
+Threads: 2
+Array size: 10000000
+Method 1:
+Max in bucket: 21, bucket size variance: 5.008768
+Array mean: 0.499851, array variance: 0.083328
+
+Method: failed
+------------------
+Threads: 2
+Array size: 100000000
+Method 1:
+Max in bucket: 21, bucket size variance: 4.998213
+Array mean: 0.499988, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 2
+Array size: 10000
+Method 1:
+Max in bucket: 21, bucket size variance: 8.474869
+Array mean: 0.501696, array variance: 0.084217
+
+Method: failed
+------------------
+Threads: 2
+Array size: 100000
+Method 1:
+Max in bucket: 20, bucket size variance: 7.803570
+Array mean: 0.500249, array variance: 0.083194
+
+Method: failed
+------------------
+Threads: 2
+Array size: 1000000
+Method 1:
+Max in bucket: 25, bucket size variance: 7.776942
+Array mean: 0.500044, array variance: 0.083306
+
+Method: failed
+------------------
+Threads: 2
+Array size: 10000000
+Method 1:
+Max in bucket: 25, bucket size variance: 7.766101
+Array mean: 0.499870, array variance: 0.083332
+
+Method: failed
+------------------
+Threads: 2
+Array size: 100000000
+Method 1:
+Max in bucket: 25, bucket size variance: 7.744768
+Array mean: 0.499988, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 2
+Array size: 10000
+Method 1:
+Max in bucket: 25, bucket size variance: 10.436000
+Array mean: 0.501494, array variance: 0.084217
+
+Method: failed
+------------------
+Threads: 2
+Array size: 100000
+Method 1:
+Max in bucket: 24, bucket size variance: 10.080600
+Array mean: 0.500010, array variance: 0.083200
+
+Method: failed
+------------------
+Threads: 2
+Array size: 1000000
+Method 1:
+Max in bucket: 26, bucket size variance: 10.095120
+Array mean: 0.500044, array variance: 0.083306
+
+Method: failed
+------------------
+Threads: 2
+Array size: 10000000
+Method 1:
+Max in bucket: 28, bucket size variance: 10.019650
+Array mean: 0.499859, array variance: 0.083331
+
+Method: failed
+------------------
+Threads: 2
+Array size: 100000000
+Method 1:
+Max in bucket: 31, bucket size variance: 9.991185
+Array mean: 0.499984, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 2
+Array size: 10000
+Method 1:
+Max in bucket: 27, bucket size variance: 13.160000
+Array mean: 0.501162, array variance: 0.084331
+
+Method: failed
+------------------
+Threads: 2
+Array size: 100000
+Method 1:
+Max in bucket: 29, bucket size variance: 13.001250
+Array mean: 0.500012, array variance: 0.083204
+
+Method: failed
+------------------
+Threads: 2
+Array size: 1000000
+Method 1:
+Max in bucket: 32, bucket size variance: 12.815750
+Array mean: 0.500018, array variance: 0.083302
+
+Method: failed
+------------------
+Threads: 2
+Array size: 10000000
+Method 1:
+Max in bucket: 32, bucket size variance: 12.766758
+Array mean: 0.499864, array variance: 0.083330
+
+Method: failed
+------------------
+Threads: 2
+Array size: 100000000
+Method 1:
+Max in bucket: 33, bucket size variance: 12.738371
+Array mean: 0.499988, array variance: 0.083352
+
+Method: failed
+------------------
+Threads: 2
+Array size: 10000
+Method 1:
+Max in bucket: 7, bucket size variance: 1.003600
+Array mean: 0.503348, array variance: 0.084178
+
+Method: failed
+------------------
+Threads: 2
+Array size: 100000
+Method 1:
+Max in bucket: 7, bucket size variance: 0.999840
+Array mean: 0.500012, array variance: 0.083204
+
+Method: failed
+------------------
+Threads: 2
+Array size: 1000000
+Method 1:
+Max in bucket: 9, bucket size variance: 1.000186
+Array mean: 0.499931, array variance: 0.083307
+
+Method: failed
+------------------
+Threads: 2
+Array size: 10000000
+Method 1:
+Max in bucket: 9, bucket size variance: 0.999972
+Array mean: 0.499863, array variance: 0.083332
+
+Method: failed
+------------------
+slurmstepd: error: *** JOB 20127989 ON p0846 CANCELLED AT 2022-04-20T23:46:16 ***

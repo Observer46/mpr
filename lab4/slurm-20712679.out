@@ -1,0 +1,156 @@
+Threads: 1
+Array size: 10000000
+
+Bucket allocation time: 0.000474
+Bucketing time: 0.917626
+Bucket merging time: 0.286730
+Sorting buckets time: 0.322994
+Rewriting buckets back to array: 0.064515
+Total time: 1.688827
+Bucket count: 500000
+Randoming time: 0.096482
+Is sorted: yes
+----------
+Threads: 2
+Array size: 10000000
+
+Bucket allocation time: 0.000936
+Bucketing time: 0.519451
+Bucket merging time: 0.174558
+Sorting buckets time: 0.163223
+Rewriting buckets back to array: 0.034292
+Total time: 0.940769
+Bucket count: 500000
+Randoming time: 0.048304
+Is sorted: yes
+----------
+Threads: 3
+Array size: 10000000
+
+Bucket allocation time: 0.001408
+Bucketing time: 0.445456
+Bucket merging time: 0.137259
+Sorting buckets time: 0.116336
+Rewriting buckets back to array: 0.026132
+Total time: 0.761447
+Bucket count: 500000
+Randoming time: 0.034846
+Is sorted: yes
+----------
+Threads: 4
+Array size: 10000000
+
+Bucket allocation time: 0.001677
+Bucketing time: 0.355958
+Bucket merging time: 0.118093
+Sorting buckets time: 0.089500
+Rewriting buckets back to array: 0.019737
+Total time: 0.611970
+Bucket count: 500000
+Randoming time: 0.027001
+Is sorted: yes
+----------
+Threads: 5
+Array size: 10000000
+
+Bucket allocation time: 0.002315
+Bucketing time: 0.341165
+Bucket merging time: 0.108480
+Sorting buckets time: 0.073645
+Rewriting buckets back to array: 0.018235
+Total time: 0.566109
+Bucket count: 500000
+Randoming time: 0.022265
+Is sorted: yes
+----------
+Threads: 6
+Array size: 10000000
+
+Bucket allocation time: 0.002215
+Bucketing time: 0.292114
+Bucket merging time: 0.096994
+Sorting buckets time: 0.061571
+Rewriting buckets back to array: 0.015825
+Total time: 0.487298
+Bucket count: 500000
+Randoming time: 0.018574
+Is sorted: yes
+----------
+Threads: 7
+Array size: 10000000
+
+Bucket allocation time: 0.002963
+Bucketing time: 0.288921
+Bucket merging time: 0.092175
+Sorting buckets time: 0.052679
+Rewriting buckets back to array: 0.014586
+Total time: 0.467624
+Bucket count: 500000
+Randoming time: 0.016296
+Is sorted: yes
+----------
+Threads: 8
+Array size: 10000000
+
+Bucket allocation time: 0.003187
+Bucketing time: 0.267314
+Bucket merging time: 0.089068
+Sorting buckets time: 0.046401
+Rewriting buckets back to array: 0.015223
+Total time: 0.435699
+Bucket count: 500000
+Randoming time: 0.014500
+Is sorted: yes
+----------
+Threads: 9
+Array size: 10000000
+
+Bucket allocation time: 0.003704
+Bucketing time: 0.273328
+Bucket merging time: 0.089571
+Sorting buckets time: 0.041320
+Rewriting buckets back to array: 0.014032
+Total time: 0.434915
+Bucket count: 500000
+Randoming time: 0.012954
+Is sorted: yes
+----------
+Threads: 10
+Array size: 10000000
+
+Bucket allocation time: 0.004066
+Bucketing time: 0.263106
+Bucket merging time: 0.084884
+Sorting buckets time: 0.037102
+Rewriting buckets back to array: 0.013049
+Total time: 0.414047
+Bucket count: 500000
+Randoming time: 0.011837
+Is sorted: yes
+----------
+Threads: 11
+Array size: 10000000
+
+Bucket allocation time: 0.004672
+Bucketing time: 0.263763
+Bucket merging time: 0.080618
+Sorting buckets time: 0.033893
+Rewriting buckets back to array: 0.014555
+Total time: 0.408619
+Bucket count: 500000
+Randoming time: 0.011114
+Is sorted: yes
+----------
+Threads: 12
+Array size: 10000000
+
+Bucket allocation time: 0.004815
+Bucketing time: 0.268509
+Bucket merging time: 0.074808
+Sorting buckets time: 0.031308
+Rewriting buckets back to array: 0.014281
+Total time: 0.404192
+Bucket count: 500000
+Randoming time: 0.010466
+Is sorted: yes
+----------
