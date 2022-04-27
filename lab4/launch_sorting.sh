@@ -10,6 +10,6 @@ for attempt in {1..25}
 do
     for proc in {1..12}
     do 
-        ./bucket.out ${proc} 10000000 --verbose
+        ./bucket.out ${proc} 10000000
     done
 done
