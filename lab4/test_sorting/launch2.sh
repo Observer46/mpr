@@ -19,15 +19,15 @@ for attempt in {1..25}
 do
     for proc in {1..12}
     do 
-        ./bucket125.out ${proc} 100000000 --verbose
-        ./bucket250.out ${proc} 100000000 --verbose
-        ./bucket375.out ${proc} 100000000 --verbose
-        ./bucket500.out ${proc} 100000000 --verbose
-        ./bucket750.out ${proc} 100000000 --verbose
-        ./bucket1000.out ${proc} 100000000 --verbose
-        ./bucket1250.out ${proc} 100000000 --verbose
-        ./bucket1500.out ${proc} 100000000 --verbose
-        ./bucket1750.out ${proc} 100000000 --verbose
-        ./bucket2000.out ${proc} 100000000 --verbose
+        ./bucket125.out ${proc} 10000000 --verbose
+        ./bucket250.out ${proc} 10000000 --verbose
+        ./bucket375.out ${proc} 10000000 --verbose
+        ./bucket500.out ${proc} 10000000 --verbose
+        ./bucket750.out ${proc} 10000000 --verbose
+        ./bucket1000.out ${proc} 10000000 --verbose
+        ./bucket1250.out ${proc} 10000000 --verbose
+        ./bucket1500.out ${proc} 10000000 --verbose
+        ./bucket1750.out ${proc} 10000000 --verbose
+        ./bucket2000.out ${proc} 10000000 --verbose
     done
 done

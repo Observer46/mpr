@@ -21,7 +21,7 @@
 #define _XOPEN_SOURCE
 #define BUCKET_SIZE 20
 #define BUCKET_SIZE_MUL 3
-#define BUCKET_COUNT_MULTIPLIER 3
+#define BUCKET_COUNT_MULTIPLIER 1
 #define REAL_BUCKET_SIZE ((BUCKET_SIZE) * (BUCKET_SIZE_MUL))
 #define MIN_CHUNK_SIZE 1000
 
@@ -89,9 +89,9 @@ double random_array(double* array, int size) {
     {
         unsigned short start_num = 0xFFFF / omp_get_num_threads() * omp_get_thread_num();
         unsigned short work[3] = {0, 0, start_num};
-            #pragma omp for schedule(guided, MIN_CHUNK_SIZE)
-                for (i=0; i < size; ++i)
-                    array[i] = erand48(work);
+        #pragma omp for schedule(guided, MIN_CHUNK_SIZE)
+            for (i=0; i < size; ++i)
+                array[i] = erand48(work);
     }
     time1 = omp_get_wtime();
     totalTime = time1 - time0;
@@ -123,11 +123,11 @@ void add_node_to_bucket(Bucket* buckets, int bucket_count, double val) {
 }
 
 
-double perform_bucketing(double* array, int array_size, Bucket** buckets_per_thread, int bucket_count) {
-    double time0, time1, totalTime;
+// time0 is time before allocation of buckets
+double perform_bucketing(double* array, int array_size, Bucket** buckets_per_thread, int bucket_count, double time0) {
+    double time1, totalTime;
     int i;
 
-    time0 = omp_get_wtime();
     #pragma omp parallel private(i) 
     {
         Bucket* my_buckets = buckets_per_thread[omp_get_thread_num()];
@@ -145,12 +145,13 @@ double perform_bucketing(double* array, int array_size, Bucket** buckets_per_thr
 
 double merge_buckets(Bucket** buckets_per_thread, int bucket_count, Bucket* main_buckets) {
     double time0, time1, totalTime;
-    int i, j ,k;
+    int i;
     time0 = omp_get_wtime();
     int thread_count = omp_get_max_threads();
 
-    #pragma omp parallel for private(i, j, k) schedule(guided, MIN_CHUNK_SIZE)
+    #pragma omp parallel for private(i) schedule(guided, MIN_CHUNK_SIZE)
     for (i = 0; i < bucket_count; ++i) {
+        int j, k;
         for (j = 0; j < thread_count; ++j) {
             for(k = 0; k < buckets_per_thread[j][i].el_count; ++k) {
                 add_node_to_bucket(main_buckets, bucket_count, buckets_per_thread[j][i].elements[k]);
@@ -227,14 +228,15 @@ double buckets_to_array(double* array, Bucket* buckets, int bucket_count) {
     int array_iter = 0;
     double time0, time1, totalTime;
     int bucket_thread_offset[12] = { 0 };
-    int i, j;
+    int i;
 
     time0 = omp_get_wtime();
 
     fill_elem_countand_totals(buckets, bucket_count, bucket_thread_offset); 
 
-    #pragma omp parallel for private(i, j) schedule(guided, MIN_CHUNK_SIZE)
+    #pragma omp parallel for private(i) schedule(guided, MIN_CHUNK_SIZE)
     for (i = 0; i < bucket_count; ++i) {
+        int j;
         int th_writer_num = buckets[i].th_idx;
         int prior_to_this = buckets[i].bucket_size + bucket_thread_offset[th_writer_num];
         for (j = 0; j < buckets[i].el_count; ++j) {
@@ -255,7 +257,7 @@ void bucket_sort(double* array, int array_size, double start, int verbose) {
     int i;
 
     double time0, time1, totalTime;
-    double init_time, bucketing_time, merging_time, sorting_time, rewriting_time, dealloc_time;
+    double bucketing_time, merging_time, sorting_time, rewriting_time, dealloc_time;
 
     // Allocation of buckets
     time0 = omp_get_wtime(); 
@@ -266,26 +268,24 @@ void bucket_sort(double* array, int array_size, double start, int verbose) {
         buckets_per_thread[i] = (Bucket*) calloc(bucket_count, sizeof(Bucket));
     }
 
-    time1 = omp_get_wtime();
-    init_time = time1 - time0;
-    bucketing_time = perform_bucketing(array, array_size, buckets_per_thread, bucket_count);
+    bucketing_time = perform_bucketing(array, array_size, buckets_per_thread, bucket_count, time0);
     merging_time = merge_buckets(buckets_per_thread, bucket_count, main_buckets);
     sorting_time = sort_buckets(main_buckets, bucket_count);
     rewriting_time = buckets_to_array(array, main_buckets, bucket_count);
 
-    // Deallocation of buckets
+    // Deallocation of buckets - this was commented out due to performance reasons
     // time0 = omp_get_wtime();
     // for (i=0; i < thread_count; ++i) {
     //     free(buckets_per_thread[i]);
     // }
     // free(main_buckets);
+
     time1 = omp_get_wtime();
 
     // dealloc_time = time1 - time0;
     totalTime = time1 - start;
 
     if (verbose) {
-        printf("Bucket allocation time: %lf\n", init_time);
         printf("Bucketing time: %lf\n", bucketing_time);  
         printf("Bucket merging time: %lf\n", merging_time);
         printf("Sorting buckets time: %lf\n", sorting_time);  
@@ -294,7 +294,6 @@ void bucket_sort(double* array, int array_size, double start, int verbose) {
         printf("Total time: %lf\n", totalTime);
         printf("Bucket count: %d\n", bucket_count);
     } else {
-        printf("%lf,", init_time);
         printf("%lf,", bucketing_time);  
         printf("%lf,", merging_time);
         printf("%lf,", sorting_time);  
@@ -330,13 +329,16 @@ int main (int argc, char** argv) {
     size = atoi(argv[2]);
     omp_set_num_threads(atoi(argv[1]));
 
-    printf("Threads: %s\n", argv[1]);
-    printf("Array size: %d\n\n", size);
 
     if (argc == 4 && same_str(argv[3], "--verbose")) {
         verbose = 1;
     }
 
+    if (verbose) {
+        printf("Threads: %s\n", argv[1]);
+        printf("Array size: %d\n\n", size);
+    } 
+    
     double* array = (double*)malloc(size * sizeof(double));
 
     /* Początek obszaru równoległego. Tworzenie grupy wątków. Określanie zasięgu
