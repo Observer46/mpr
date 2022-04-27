@@ -17,17 +17,14 @@ gcc -fopenmp -o bucket1750.out bucket_sort_3_1750k.c
 gcc -fopenmp -o bucket2000.out bucket_sort_3_2000k.c
 for attempt in {1..25}
 do
-    for proc in {1..12}
-    do 
-        ./bucket125.out ${proc} 10000000
-        ./bucket250.out ${proc} 10000000
-        ./bucket375.out ${proc} 10000000
-        ./bucket500.out ${proc} 10000000
-        ./bucket750.out ${proc} 10000000
-        ./bucket1000.out ${proc} 10000000
-        ./bucket1250.out ${proc} 10000000
-        ./bucket1500.out ${proc} 10000000
-        ./bucket1750.out ${proc} 10000000
-        ./bucket2000.out ${proc} 10000000
-    done
+    ./bucket125.out 1 10000000
+    ./bucket250.out 1 10000000
+    ./bucket375.out 1 10000000
+    ./bucket500.out 1 10000000
+    ./bucket750.out 1 10000000
+    ./bucket1000.out 1 10000000
+    ./bucket1250.out 1 10000000
+    ./bucket1500.out 1 10000000
+    ./bucket1750.out 1 10000000
+    ./bucket2000.out 1 10000000
 done
