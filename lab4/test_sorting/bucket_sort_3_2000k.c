@@ -333,9 +333,6 @@ int main (int argc, char** argv) {
     size = atoi(argv[2]);
     omp_set_num_threads(atoi(argv[1]));
 
-    printf("Threads: %s\n", argv[1]);
-    printf("Array size: %d\n\n", size);
-
     if (argc == 4 && same_str(argv[3], "--verbose")) {
         verbose = 1;
     }
