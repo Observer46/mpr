@@ -1,0 +1,80 @@
+Threads: 1
+Array size: 100000000
+Bucket count multiplier: 2
+Bucket size: 10
+
+Buckets with 0 elements: 134404.000000
+Buckets with 1 elements: 673288.000000
+Buckets with 2 elements: 1684804.000000
+Buckets with 3 elements: 2807566.000000
+Buckets with 4 elements: 3509617.000000
+Buckets with 5 elements: 3509357.000000
+Buckets with 6 elements: 2923978.000000
+Buckets with 7 elements: 2090451.000000
+Buckets with 8 elements: 1306649.000000
+Buckets with 9 elements: 724323.000000
+Buckets with 10 elements: 361729.000000
+Buckets with 11 elements: 164493.000000
+Buckets with 12 elements: 68821.000000
+Buckets with 13 elements: 26388.000000
+Buckets with 14 elements: 9459.000000
+Buckets with 15 elements: 3290.000000
+Buckets with 16 elements: 1002.000000
+Buckets with 17 elements: 276.000000
+Buckets with 18 elements: 81.000000
+Buckets with 19 elements: 18.000000
+Buckets with 20 elements: 6.000000
+Threads: 2
+Array size: 100000000
+Bucket count multiplier: 2
+Bucket size: 10
+
+Buckets with 0 elements: 134710.970000
+Buckets with 1 elements: 673086.420000
+Buckets with 2 elements: 1685354.810000
+Buckets with 3 elements: 2806586.670000
+Buckets with 4 elements: 3508055.920000
+Buckets with 5 elements: 3511260.730000
+Buckets with 6 elements: 2924863.590000
+Buckets with 7 elements: 2089459.170000
+Buckets with 8 elements: 1306171.230000
+Buckets with 9 elements: 724821.080000
+Buckets with 10 elements: 361898.630000
+Buckets with 11 elements: 164827.480000
+Buckets with 12 elements: 68440.690000
+Buckets with 13 elements: 26615.620000
+Buckets with 14 elements: 9265.290000
+Buckets with 15 elements: 3215.840000
+Buckets with 16 elements: 942.960000
+Buckets with 17 elements: 309.820000
+Buckets with 18 elements: 84.030000
+Buckets with 19 elements: 19.080000
+Buckets with 20 elements: 8.980000
+Buckets with 21 elements: 0.990000
+Threads: 3
+Array size: 100000000
+Bucket count multiplier: 2
+Bucket size: 10
+
+Buckets with 0 elements: 134572.770000
+Buckets with 1 elements: 674010.800000
+Buckets with 2 elements: 1683877.460000
+Buckets with 3 elements: 2808412.900000
+Buckets with 4 elements: 3508879.500000
+Buckets with 5 elements: 3508144.540000
+Buckets with 6 elements: 2925161.950000
+Buckets with 7 elements: 2090083.950000
+Buckets with 8 elements: 1305735.110000
+Buckets with 9 elements: 725178.930000
+Buckets with 10 elements: 361986.080000
+Buckets with 11 elements: 165004.370000
+Buckets with 12 elements: 68653.990000
+Buckets with 13 elements: 26577.940000
+Buckets with 14 elements: 9267.270000
+Buckets with 15 elements: 3087.150000
+Buckets with 16 elements: 969.350000
+Buckets with 17 elements: 291.780000
+Buckets with 18 elements: 73.290000
+Buckets with 19 elements: 23.170000
+Buckets with 20 elements: 5.730000
+Buckets with 21 elements: 1.970000
