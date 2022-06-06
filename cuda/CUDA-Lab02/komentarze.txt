@@ -1,0 +1,32 @@
+Zadanie było wykonywane na mojej karcie graficznej w laptopie:
+GeForce GTX 1050 (2GB RAM, 640 CUDA cores, 1493 MHz GPU max clock)
+
+Kod został zaadaptowany tak, aby wykonanie całego zadania (transpozycja, skalowanie obrazu) nie zależało od ilości wątków (żeby dla dowolnej ilości wątków/bloków program działał poprawnie). Sprowadzało się to do dodanie kilku pętli i zmiany sposobu przetwarzania danych.
+
+Komentarze do wykresów:
+
+Image scaling:
+	1. Wykres czasu działania w zależności od liczby bloków (img_blocks.png):
+	Na początku zwiększanie bloków przyspieszenia wykonianie, jednak w pewnym momencie wymagane jest wykorzystanie większej liczby wątków niż jest dostępne CUDA cores, w efekcie czego przyspieszenie zanika.
+
+	2. Wykres czasu działania w zależności od liczby wątków w bloku (img_threads.png):
+	Jak powyżej - na początku można zaobserwować przyspieszenie lecz potem krzywa się wypłaszcza ze względu na ograniczoną liczbę wątków w GPU.	
+
+	Czas działania zależy od współczynnika skalującego - większy współczynnik oznacza więcej danych do przetworzenia.
+
+Transpozycja macierzy:
+	1. Wykres czasu działania w zależności od liczby bloków (transpose_blocks.png):
+	Da się wahania czasu działania, które trochę trudno wyjaśnić - może to kwestia wywłaszczania GPU. Naiwna implementacja zachowuje się tutaj najlepiej, co jest wynikiem zmiany implementacji. Najsłabiej wypada bazowa wersja z pamięcią współdzieloną.
+
+	2. Wykres czasu działania w zależności od liczby wątków w bloku (transpose_threads.png):
+	Na samym początku (i tylko tam) widać przyspieszenie, a potem bardzo szybko zanika - jest to konsekwencja ogarniczonej ilości CUDA cores. Przewaga shared memory nie jest odczuwalna tutaj.
+
+	3. Wykres czasu działania w zależności od liczby wątków w bloku (transpose_matrix_size.png):
+	Na wykresie można zaobserwować tendecję do kwadratowego wzrostu - jest to konsekwencja tego, że wraz ze zwiększaniem rozmiaru macierzy ilość jej elementów rośnie kwadratowo. Dalej nie widać przewagi shared memory.
+
+	Wolniejsze działanie wersji z shared memory względem naiwej (dostęp do globalnej pamięci) wynika prawdopodobnie z moje zmiany w implementacji - powiela ona synchronizację przed odczytem z shared memory co powoduje w dalszej perspektywie utratę benefitów wykorzystania shared memory. Dla pierwotnej implementacji było widać znaczne przyspieszenie.
+
+Aby dobrać optymalne parametry liczby wątków i bloków do mojej karty graficznej prawdopodobnie należałoby wychonać heatmapę 2D (lub wykres 3D) i znaleźć w pełni optymalne parametry.
+
+
+Kod oraz wyniki są dostępne wewnątrz pliku .zip. Danych wynikowych jest znacznie więcej niż dało się przedstawić na wykresach, sposób ich uzyskania jest zawarty w bashowym skrypcie.
